@@ -19,6 +19,7 @@
 
 
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -144,6 +145,7 @@
                 </div>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
             </asp:ContentPlaceHolder>
 
             <!-- JS for Custom Masterpage -->

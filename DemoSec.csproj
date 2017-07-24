@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SitePages\PublicHearing.aspx" />
     <Content Include="SitePages\master.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -110,6 +111,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SitePages\PublicHearing.aspx.cs">
+      <DependentUpon>PublicHearing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePages\PublicHearing.aspx.designer.cs">
+      <DependentUpon>PublicHearing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SitePages\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

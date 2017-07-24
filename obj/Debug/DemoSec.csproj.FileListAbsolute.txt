@@ -4,3 +4,9 @@ D:\Project\SP-SEC\SEC\DemoSec\DemoSec\bin\DemoSec.pdb
 D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.csprojResolveAssemblyReference.cache
 D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.dll
 D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.pdb
+D:\DemoSEC\bin\DemoSec.dll.config
+D:\DemoSEC\bin\DemoSec.dll
+D:\DemoSEC\bin\DemoSec.pdb
+D:\DemoSEC\obj\Debug\DemoSec.csprojResolveAssemblyReference.cache
+D:\DemoSEC\obj\Debug\DemoSec.dll
+D:\DemoSEC\obj\Debug\DemoSec.pdb
