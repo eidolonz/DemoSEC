@@ -1564,8 +1564,6 @@ ul.portfolio-image {
     float: left;
 }
 
-
-
     .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
         padding: 0;
     }
@@ -1585,7 +1583,7 @@ ul.portfolio-image {
     margin-top: 5%;
     height: auto;
     width: 20%;
-    float: inherit;
+    float: left;
 }
 
 
@@ -1616,6 +1614,7 @@ ul.portfolio-image {
     background-color: transparent;
     border: 1px solid #fff;
 }
+
 
 #text-title {
     color: #003763;
@@ -1893,3 +1892,105 @@ a.socialIcon:hover, .socialHoverClass {
         padding: 0;
         margin: 0;
     }
+
+
+.radio {
+    padding-left: 20px;
+}
+
+    .radio label {
+        display: inline-block;
+        position: relative;
+        padding-left: 5px;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+        .radio label::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            left: 0;
+            margin-left: -20px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            background-color: transparent;
+            -webkit-transition: border 0.15s ease-in-out;
+            -o-transition: border 0.15s ease-in-out;
+            transition: border 0.15s ease-in-out;
+        }
+
+        .radio label::after {
+            display: inline-block;
+            position: absolute;
+            content: " ";
+            width: 5px;
+            height: 5px;
+            left: 6px;
+            top: 6px;
+            margin-left: -20px;
+            border-radius: 50%;
+            background-color: #fa1a1a;
+            -webkit-transform: scale(0, 0);
+            -ms-transform: scale(0, 0);
+            -o-transform: scale(0, 0);
+            transform: scale(0, 0);
+            -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+            -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+            -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+            transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+        }
+
+    .radio input[type="radio"] {
+        opacity: 0;
+    }
+
+        .radio input[type="radio"]:focus + label::before {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+
+        .radio input[type="radio"]:checked + label::after {
+            -webkit-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1);
+        }
+
+        .radio input[type="radio"]:disabled + label {
+            opacity: 0.65;
+        }
+
+            .radio input[type="radio"]:disabled + label::before {
+                cursor: not-allowed;
+            }
+
+    .radio.radio-inline {
+        margin-top: 0;
+    }
+
+.radio-primary input[type="radio"] + label::after {
+    background-color: #428bca;
+}
+
+.radio-primary input[type="radio"]:checked + label::before {
+    border-color: #fff;
+}
+
+.radio-primary input[type="radio"]:checked + label::after {
+    background-color: #fff;
+    border-color: #000 !important;
+}
+
+.padding-left10 {
+    padding-left: 15px;
+}
+
+textarea{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
