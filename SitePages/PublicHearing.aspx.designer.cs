@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DemoSec
+namespace DemoSec.SitePages
 {
 
 
