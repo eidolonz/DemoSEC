@@ -1,0 +1,18 @@
+﻿#ms-designer-ribbon{
+            display:none;
+        }
+        #s4-bodyContainer{
+        	padding: 0 0 !important;
+       	}
+        .ms-dialogHidden{
+			display:none !important;
+		}
+		.container-fluid{
+			padding:0 0 !important;
+		}
+		.ms-webpart-cell-vertical{
+			margin: 0 0 !important;
+		}
+		#tcbNavbar{
+			display: block !important;
+		}

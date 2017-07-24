@@ -1,0 +1,6 @@
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\bin\DemoSec.dll.config
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\bin\DemoSec.dll
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\bin\DemoSec.pdb
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.csprojResolveAssemblyReference.cache
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.dll
+D:\Project\SP-SEC\SEC\DemoSec\DemoSec\obj\Debug\DemoSec.pdb
