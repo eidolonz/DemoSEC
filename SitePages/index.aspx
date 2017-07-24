@@ -23,7 +23,7 @@
 			padding:0 0 !important;
 		}
 		.ms-webpart-cell-vertical{
-			margin: 0 !important;
+			margin: 0 0 !important;
 		}
         #color {
         }
