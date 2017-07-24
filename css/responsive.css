@@ -348,6 +348,30 @@ nav {
             height: 25px;
             margin-right: 5px;
         }
+
+
+    .box7-Left {
+        padding-left: 20px;
+        height: auto;
+        width: 40%;
+        float: left;
+    }
+
+
+        .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
+            padding: 0;
+        }
+
+
+        .box7-Left hr {
+            display: none;
+        }
+
+        .box7-Left p {
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline;
+        }
 }
 
 
@@ -395,7 +419,7 @@ nav {
 
     .for-sticky {
         background-color: #e6e6e4;
-        padding-left
+        padding-left;
     }
 
 
@@ -432,64 +456,137 @@ nav {
         .navbar-fixed-bottom img {
             width: 20px;
         }
+
+    .box6 {
+        padding-top: 5%;
+        padding-left: 15px;
+        width: 100%;
+    }
+
+        .box6 h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 15px;
+            display: block;
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+
+    .box7-Left {
+        width: 100%;
+    }
+
+        .box7-Left hr {
+            display: block;
+        }
+
+        .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
+            padding: 0;
+        }
+
+
+        .box7-Left p {
+            margin-top: 0;
+            padding-right: 10px;
+            font-size: 0.5em;
+        }
+
+    .box7-Center {
+        display: none;
+    }
+
+    .box7-Right {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10%;
+        padding-left: 20%;
+    }
+
+        .box7-Right img {
+            width: 40%;
+        }
+
+    .text-input {
+        margin-left: 0;
+        padding-left: 0;
+        height: 20px;
+    }
+
+    .bt-navyblue {
+        margin-top: 10px;
+        width: 65px;
+        height: 30px;
+        font-size: 0.8em;
+        text-align: center;
+        float: right;
+    }
+
+    .block1 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 320px), only screen and (max-device-width : 320px) {
-        nav li a {
-            width: 33.33%;
-            font: 400 10px 'Cutive', Helvetica, Verdana, Arial, sans-serif;
-            font-weight: bold;
-            padding-top: 12px;
-            padding-bottom: 12px;
+    nav li a {
+        width: 33.33%;
+        font: 400 10px 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+        font-weight: bold;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    nav li:nth-child(even) a {
+        border-right: 1px solid #fff;
+    }
+
+    nav li:nth-child(5) a, nav li:nth-child(6) a {
+        border-bottom: none;
+    }
+
+    .footer-desktop {
+        height: 40px;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+        .mobile-nav img {
+            width: auto;
+            height: 20px;
         }
 
-        nav li:nth-child(even) a {
-            border-right: 1px solid #fff;
+    .desktop-nav {
+        display: none;
+    }
+
+    .for-sticky {
+        background-color: #e6e6e4;
+    }
+
+    .menu-button span {
+        background: #003764;
+    }
+
+    .carousel-indicators {
+        text-align: center;
+        margin-left: -30%;
+    }
+
+        .carousel-indicators li {
+            width: 5px;
+            height: 5px;
         }
 
-        nav li:nth-child(5) a, nav li:nth-child(6) a {
-            border-bottom: none;
+        .carousel-indicators .active {
+            width: 8px;
+            height: 8px;
         }
 
-        .footer-desktop {
-            height: 40px;
-        }
-
-        .mobile-nav {
-            display: inline-block;
-            margin-top: 5px;
-        }
-
-            .mobile-nav img {
-                width: auto;
-                height: 20px;
-            }
-
-        .desktop-nav {
-            display: none;
-        }
-
-        .for-sticky {
-            background-color: #e6e6e4;
-        }
-
-        .menu-button span {
-            background: #003764;
-        }
-
-        .carousel-indicators {
-            text-align: center;
-            margin-left: -30%;
-        }
-
-            .carousel-indicators li {
-                width: 5px;
-                height: 5px;
-            }
-
-            .carousel-indicators .active {
-                width: 8px;
-                height: 8px;
-            }
-    
+    .box7-Center {
+        display: none;
+    }
 }
