@@ -301,6 +301,10 @@ nav {
         display: none;
     }
 
+    .desktop{
+        display:block;
+    }
+
     .desktop-nav {
         display: inline;
         float: right;
@@ -336,6 +340,9 @@ nav {
 
     .mobile-nav {
         display: none;
+    }
+    .desktop{
+        display:block;
     }
 
     .desktop-nav {
@@ -412,7 +419,10 @@ nav {
             width: auto;
             height: 25px;
         }
-
+        
+    .desktop{
+        display:none;
+    }
     .desktop-nav {
         display: none;
     }
@@ -561,7 +571,10 @@ nav {
             width: auto;
             height: 20px;
         }
-
+        
+    .desktop{
+        display:none;
+    }
     .desktop-nav {
         display: none;
     }

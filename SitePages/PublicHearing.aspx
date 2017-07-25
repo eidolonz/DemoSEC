@@ -9,33 +9,33 @@
     <asp:ScriptManager runat="server" />
     <div class="container">
         <div class="text-left" id="text-title"></div>
-        
-            <asp:UpdatePanel runat="server">
-                <ContentTemplate>
-        <div class="mybox2">
-            <a href="#">
-                <div class="block1 center-block" runat="server" id="block1">
-                    <h1>01</h1>
-                    <h3>Step one</h3>
-                </div>
-            </a>
-            <hr />
-            <a href="#">
-                <div class="block1 center-block" runat="server" id="block2">
-                    <h1>02</h1>
-                    <h3>Step two</h3>
-                </div>
-            </a>
-            <hr />
-            <a href="#">
-                <div class="block1 center-block" runat="server" id="block3">
-                    <h1>03</h1>
-                    <h3>Complete!</h3>
-                </div>
-            </a>
-        </div>
 
-        <div class="box6">
+        <asp:UpdatePanel runat="server">
+            <ContentTemplate>
+                <div class="mybox2">
+                    <a href="#">
+                        <div class="block1 center-block" runat="server" id="block1">
+                            <h1>01</h1>
+                            <h3>Step one</h3>
+                        </div>
+                    </a>
+                    <hr />
+                    <a href="#">
+                        <div class="block1 center-block" runat="server" id="block2">
+                            <h1>02</h1>
+                            <h3>Step two</h3>
+                        </div>
+                    </a>
+                    <hr />
+                    <a href="#">
+                        <div class="block1 center-block" runat="server" id="block3">
+                            <h1>03</h1>
+                            <h3>Complete!</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box6">
 
                     <h2>Public </h2>
                     <h2>Hearing</h2>
@@ -84,8 +84,8 @@
                                     <input type="text" class="text-input" aria-describedby="basic-addon1">
                                 </div>
                             </div>
-                                <asp:Button runat="server" ID="btn_login" Text="Log in" OnClick="btn_login_Click" CssClass="bt-navyblue"></asp:Button>
-                            
+                            <asp:Button runat="server" ID="btn_login" Text="Log in" OnClick="btn_login_Click" CssClass="bt-navyblue"></asp:Button>
+
 
                         </div>
                         <div class="box7-Center">
@@ -208,11 +208,11 @@
                             </div>
                             <div class="padding-left10">
                                 <div class="col-xs-8 col-md-12 col-lg-9">
-                                    <textarea rows="4" cols="50"></textarea>                                    
+                                    <textarea rows="4" cols="50"></textarea>
                                 </div>
                                 <div class="col-lg-4">
                                     <asp:Button Text="Send" runat="server" ID="btn_send" OnClick="btn_send_Click" CssClass="bt-navyblue" />
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -274,7 +274,8 @@
 
 
 
-        </div>
-                </ContentTemplate>
-            </asp:UpdatePanel>
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </div>
 </asp:Content>

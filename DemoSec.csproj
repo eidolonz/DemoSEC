@@ -57,7 +57,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SitePages\master.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="PublishingImages\bt-asean-capitalmarket.PNG" />
+    <Content Include="PublishingImages\bt-bond-supermarket.PNG" />
+    <Content Include="PublishingImages\bt-fintech-forums.PNG" />
+    <Content Include="PublishingImages\icon-about.png" />
+    <Content Include="PublishingImages\icon-AnonymUser.png" />
+    <Content Include="PublishingImages\icon-cog.png" />
+    <Content Include="PublishingImages\icon-contact.png" />
+    <Content Include="PublishingImages\icon-eSub.png" />
+    <Content Include="PublishingImages\icon-home-nav.png" />
+    <Content Include="PublishingImages\icon-myfeed.png" />
+    <Content Include="PublishingImages\icon-news.png" />
+    <Content Include="PublishingImages\icon-user.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,8 +83,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\mod_masterPage.css" />
-    <Content Include="SitePages\home.aspx" />
-    <Content Include="SitePages\index.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\magnific-popup.css" />
     <Content Include="css\normalize.css" />
@@ -107,10 +121,16 @@
     <Content Include="PublishingImages\picture1.png" />
     <Content Include="PublishingImages\pic_slide1.png" />
     <Content Include="PublishingImages\sec.icon.png" />
+    <Content Include="SitePages\home.aspx" />
+    <Content Include="SitePages\index.aspx" />
+    <Content Include="SitePages\master.Master" />
+    <Content Include="SitePages\myfeed.aspx" />
+    <Content Include="SitePages\myfeedCustomise.aspx" />
     <Content Include="SitePages\PublicHearing.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SitePages\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,7 +152,20 @@
     <Compile Include="SitePages\master.Master.designer.cs">
       <DependentUpon>master.Master</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SitePages\myfeed.aspx.cs">
+      <DependentUpon>myfeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePages\myfeed.aspx.designer.cs">
+      <DependentUpon>myfeed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitePages\myfeedCustomise.aspx.cs">
+      <DependentUpon>myfeedCustomise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePages\myfeedCustomise.aspx.designer.cs">
+      <DependentUpon>myfeedCustomise.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SitePages\PublicHearing.aspx.cs">
       <DependentUpon>PublicHearing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
