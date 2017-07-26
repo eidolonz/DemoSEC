@@ -453,40 +453,31 @@ img {
             color: #ffffff;
         }
 
-    .menu-list,
-    .menu-list a {
+    .menu-list{
         -webkit-transition: -webkit-transform 0s 0.4s;
         transition: transform 0s 0.4s;
         -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
         transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
     }
+    .menu-list a,
+    .menu-list tr {
+        -webkit-transition: -webkit-transform 0s 0.4s;
+        transition: transform 0s 0.4s;
+        -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+        transition-timing-function: cubic-bezier(0, 1, 0, 1);
+    }
 
 .menu a:nth-child(2) {
-    -webkit-transform: translate3d(1000px, 0, 0);
-    transform: translate3d(1000px, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+.menu-list tr{
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
 }
 
-.menu-list a:nth-child(3) {
-    -webkit-transform: translate3d(1500px, 0, 0);
-    transform: translate3d(1500px, 0, 0);
-}
 
-.menu-list a:nth-child(4) {
-    -webkit-transform: translate3d(2000px, 0, 0);
-    transform: translate3d(2000px, 0, 0);
-}
-
-.menu-list a:nth-child(5) {
-    -webkit-transform: translate3d(2500px, 0, 0);
-    transform: translate3d(2500px, 0, 0);
-}
-
-.menu-list a:nth-child(6) {
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
-}
-
-.menu-list a span:nth-last-child(1) {
+.menu-list tr span:nth-last-child(1) {
     margin-bottom: 100px;
 }
 
@@ -537,14 +528,77 @@ img {
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
-.show-menu .menu-list,
-.show-menu .menu-list a {
+.show-menu .menu-list{
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1.1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.show-menu .menu-list a,
+.show-menu .menu-list tr {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform 0.8s;
     transition: transform 0.8s;
     -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
-    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+}
+.menu-list tr:nth-child(1){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    -webkit-transition-delay: 0.1s; /* Safari */
+    transition-delay: 0.1s;
+}
+.menu-list tr:nth-child(2){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+.menu-list tr:nth-child(3){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.3s; /* Safari */
+    transition-delay: 0.3s;
+}
+.menu-list tr:nth-child(4){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.4s; /* Safari */
+    transition-delay: 0.4s;
+}
+.menu-list tr:nth-child(5){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.5s; /* Safari */
+    transition-delay: 0.5s;
+}
+.menu-list tr:nth-child(6){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.6s; /* Safari */
+    transition-delay: 0.6s;
+}
+.menu-list tr:nth-child(7){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.7s; /* Safari */
+    transition-delay: 0.7s;
+}
+.menu-list tr:nth-child(8){
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: cubic-bezier(0.2, 0.7, 0, 1);
+    -webkit-transition-delay: 0.8s; /* Safari */
+    transition-delay: 0.8s;
 }
 
     .show-menu .menu-list a {
