@@ -80,9 +80,9 @@
         .right-nav {
             /*padding: 10px 5% 3px 0px;*/
             right: 0;
-            padding-right:0;
-            background:#aeaeae;
-            z-index:1002;
+            padding-right: 0;
+            background: #aeaeae;
+            z-index: 1002;
         }
 
             .right-nav img {
@@ -93,11 +93,13 @@
                 margin-left: 10px;
             }
 
-            .right-nav .desktop-nav {
+            .right-nav .item-nav {
+                display: inline-flex;
+                float: right;
                 padding: 10px 5% 3px 0px;
             }
 
-                .right-nav .desktop-nav a {
+                .right-nav .item-nav a {
                     margin-left: 10px;
                 }
 
@@ -112,10 +114,16 @@
         }
 
             .menu-button:hover {
-                transition: background-color 1s ease;
-                background: #003764;
                 opacity: 1;
             }
+
+            .menu-button.toggled {
+                background: #192430;
+            }
+
+                .menu-button.toggled span {
+                    background: #fff;
+                }
 
             .menu-button span {
                 left: 0;
@@ -146,7 +154,24 @@
 
         @media screen and (max-width: 480px) {
             .menu-wrap {
-                width: 70%;
+                width: 80%;
+            }
+
+            .show-menu .dark-screen {
+                display: block !important;
+                position: fixed;
+                min-height: 100%;
+                min-width: 100%;
+                z-index:1001;
+                background:rgba(0,0,0,0.8);
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .menu-button:hover {
+                transition: background-color 1s ease;
+                background: #192430;
+                opacity: 1;
             }
         }
     </style>
@@ -163,24 +188,22 @@
                         <div class="container">
                             <div class="for-sticky">
                                 <!--LOGO-->
-                                <div class="col-xs-6 col-md-4">
+                                <div class="col-xs-7 col-md-4">
                                     <div class="mobile-nav">
                                         <img src="../../../PublishingImages/logo-sec.png" />
-                                        <%--<img src="../../../PublishingImages/icon-Home.png" style="margin-right: 5px" />--%>
-                                        <%--<img src="../../../PublishingImages/icon-EN-TH.png" />--%>
                                     </div>
                                 </div>
-                                <div class="col-xs-6 col-md-6 col-md-offset-2 right-nav">
+                                <div class="col-xs-5 col-md-6 col-md-offset-2 right-nav">
 
-                                    <button onclick="return false;" class="menu-button" id="open-button">
+                                    <button onclick="btnColor('open-button');return false;" class="menu-button" id="open-button">
                                         <span></span>
                                         <span></span>
                                         <span></span>
                                     </button>
-                                    <div class="desktop-nav">
+                                    <div class="item-nav">
                                         <a href="#">
                                             <img src="../../../PublishingImages/icon-Home.png" /></a>
-                                        <a href="#">
+                                        <a href="#" class="desktop">
                                             <img src="../../../PublishingImages/icon-search.png" /></a>
                                         <a href="#">
                                             <img src="../../../PublishingImages/icon-EN-TH.png" /></a>
@@ -283,6 +306,7 @@
                             <!--/.LOGO END-->
                         </div>
 
+                        <div class="dark-screen fade" style="display: none;"></div>
 
                         <!--/.for-sticky-->
                     </div>
@@ -338,7 +362,6 @@
             <asp:ScriptManager runat="server" />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
             <div class="container">
                 <div class="box3" id="mobileFooter">
                     <div class="hdn">
@@ -397,6 +420,18 @@
             <script src="../js/main.js" type="text/javascript">
             </script>
 
+
+            <script>
+                function btnColor(btn) {
+                    var property = document.getElementById(btn);
+                    if (property.className !== 'menu-button toggled') {
+                        property.className = 'menu-button toggled'
+                    }
+                    else {
+                        property.className = 'menu-button';
+                    }
+                }
+            </script>
 
             <!-- End of JS -->
 
