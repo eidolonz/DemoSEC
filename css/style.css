@@ -41,21 +41,21 @@ TABLE OF CONTENTS:
     font-family: 'Kanit-Bold';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/Kanit-Bold.ttf') format('truetype');
+    src: url('../fonts/Kanit-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'UtSaHaGumm';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/UtSaHaGumm.otf') format('truetype');
+    src: url('../fonts/UtSaHaGumm.otf') format('truetype');
 }
 
 @font-face {
     font-family: 'UtSaHaGummLTThai';
     font-style: normal;
     font-weight: normal;
-    src: url("fonts/UtSaHaGummLTThai.ttf") format('truetype');
+    src: url("../fonts/UtSaHaGummLTThai.ttf") format('truetype');
 }
 
 
