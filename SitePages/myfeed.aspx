@@ -46,33 +46,33 @@
 
 
         <div class="mybox1" id="mybox1">
-           
+            <div class="bar2 mobile" style="padding:0; margin:0"><div id="bar3"></div></div>
             <div class="col-xs-6 col-md-6 col-padding-left-0">
                 <div class="col-xs-12 col-md-12 col-padding-left-0 col-margin-bottom-5">
-                     <div class="bar desktop"><div id="bar2"></div></div>
-                    <img src="../PublishingImages/bt-bond-supermarket.png" width="100%" alt="">
+                     <div class="bar desktop"><div id="bar1"></div></div>
+                    <a href="#"><img src="../PublishingImages/bt-bond-supermarket.png" width="100%" alt=""></a>
                 </div>
                 <div class="col-xs-12 col-md-12 col-padding-left-0 col-margin-bottom-5">
-                    <img src="../PublishingImages/bt-CG.jpg" width="100%" alt="">
+                    <a href="#"><img src="../PublishingImages/bt-CG.jpg" width="100%" alt=""></a>
                 </div>
                 <div class="col-xs-12 col-md-12 col-padding-left-0 col-margin-bottom-5">
-                    <img src="../PublishingImages/bt-fintech-forum.png" width="100%" alt="">
+                    <a href="#"><img src="../PublishingImages/bt-fintech-forum.png" width="100%" alt=""></a>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-padding-right-0 ">
                 <div class="col-xs-12 col-md-12 col-padding-right-0 col-margin-bottom-5">
                     <div class="bar desktop"><div id="bar2"></div></div>
-                    <img src="../PublishingImages/bt-Asean.jpg" width="100%" alt="">
+                    <a href="#"><img src="../PublishingImages/bt-Asean.jpg" width="100%" alt=""></a>
                 </div>
                 <div class="col-xs-12 col-md-12 col-padding-right-0 col-margin-bottom-5">
-                    <img src="../PublishingImages/bt-asean-capitalmarket.png" width="100%" alt="">
+                    <a href="#"><img src="../PublishingImages/bt-asean-capitalmarket.png" width="100%" alt=""></a>
                 </div>
                 <div class="col-xs-12 col-md-12 col-padding-right-0 col-margin-bottom-5">
-                    <img src="../PublishingImages/bt-Recent.jpg" width="100%" alt="">
+                    <a href="#"><img src="../PublishingImages/bt-Recent.jpg" width="100%" alt=""></a>
                 </div>
             </div>
         </div>
-        <div class="mybox2">
+        <div class="mybox2 desktop">
             <a href="#">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block1">
                     <span class="glyphicon glyphicon-cog" style="font-size: 3em;"></span>

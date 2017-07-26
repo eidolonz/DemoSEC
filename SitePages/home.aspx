@@ -17,16 +17,22 @@
             <div class="text-left" id="text-title">Hot Topic</div>
 
             <div class="mybox1 " id="mybox1" style="border: none;">
-                <div class="bar desktop"><div id="bar2"></div></div>
+                <div class="bar desktop">
+                    <div id="bar2"></div>
+                </div>
                 <header>
                     <div style="margin-right: 5px; margin-bottom: 5px">
-                        <img src="../PublishingImages/bt-CG.jpg" width="40%" ></div>
+                        <a href="#"><img src="../PublishingImages/bt-CG.jpg" width="40%"></a>
+                    </div>
                     <div>
-                        <img src="../PublishingImages/bt-Asean.jpg" width="40%" ></div>
+                        <a href="#"><img src="../PublishingImages/bt-Asean.jpg" width="40%"></a>
+                    </div>
                     <div style="margin-right: 5px; margin-bottom: 5px">
-                        <img src="../PublishingImages/bt-License.jpg" width="40%" ></div>
+                        <a href="#"><img src="../PublishingImages/bt-License.jpg" width="40%"></a>
+                    </div>
                     <div>
-                        <img src="../PublishingImages/bt-Recent.jpg" width="40%" ></div>
+                        <a href="#"><img src="../PublishingImages/bt-Recent.jpg" width="40%"></a>
+                    </div>
                     <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
                 </header>
             </div>
