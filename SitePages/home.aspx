@@ -5,8 +5,6 @@
     <%-- Add mod_masterPage CSS to all pages --%>
     <link href="../css/mod_masterPage.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -19,17 +17,17 @@
             <div class="text-left" id="text-title">Hot Topic</div>
 
             <div class="mybox1 " id="mybox1" style="border: none;">
-            <header>
-                <div><img src="../PublishingImages/bt-CG.jpg" width="40%" alt=""></div>
-                <div><img src="../PublishingImages/bt-Asean.jpg" width="40%" alt=""></div>
-                <div><img src="../PublishingImages/bt-License.jpg" width="40%" alt=""></div>
-                <div><img src="../PublishingImages/bt-Recent.jpg" width="40%" alt=""></div>
-                <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
-            </header>
-                
-
-
-
+                <header>
+                    <div>
+                        <img src="../PublishingImages/bt-CG.jpg" width="40%" alt=""></div>
+                    <div>
+                        <img src="../PublishingImages/bt-Asean.jpg" width="40%" alt=""></div>
+                    <div>
+                        <img src="../PublishingImages/bt-License.jpg" width="40%" alt=""></div>
+                    <div>
+                        <img src="../PublishingImages/bt-Recent.jpg" width="40%" alt=""></div>
+                    <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+                </header>
             </div>
 
             <div class="mybox2">

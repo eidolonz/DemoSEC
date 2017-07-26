@@ -36,6 +36,25 @@ TABLE OF CONTENTS:
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Kanit-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Kanit-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'UtSaHaGumm';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/UtSaHaGumm.otf') format('truetype');
+}
+@font-face{
+    font-family: 'UtSaHaGummLTThai';
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/UtSaHaGummLTThai.ttf") format('truetype');
+}
+
 
 *,
 *:after,
@@ -48,6 +67,7 @@ TABLE OF CONTENTS:
 
 body,
 html {
+    
     color: #003764;
     font-size: 16px;
     line-height: 1.7;
@@ -75,6 +95,7 @@ footer {
     background-color: #003764;
     height: 20px;
     color: #fff;
+    
 }
 
 
@@ -1534,6 +1555,7 @@ ul.portfolio-image {
 }
 
 .box6 {
+    font-family: 'UtSaHaGummLTThai', sans-serif;
     margin-top: 10px;
     padding-top: 5%;
     padding: 5%;
@@ -1549,6 +1571,7 @@ ul.portfolio-image {
 }
 
     .box6 h2 {
+        font-family: 'Kanit-Bold', sans-serif;
         display: inline;
         color: #fff;
         font-weight: 100;
@@ -1564,7 +1587,7 @@ ul.portfolio-image {
     float: left;
 }
 
-    .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
+    .box7-Left .col-xs-4 .box7-Left .col-xs-5, .box7-Left .col-xs-7, .box7-Left .col-xs-8, .box7-Left .col-lg-12 {
         padding: 0;
     }
 
@@ -1619,7 +1642,7 @@ ul.portfolio-image {
 .text-input {
     display: block;
     width: 100%;
-    height: 34px;
+    height: 27px;
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 6px 12px;
@@ -1669,8 +1692,7 @@ ul.portfolio-image {
     .mybox2 hr {
         width: 50%;
         padding: 0;
-        margin-top: 5%;
-        margin-bottom: 4%;
+        margin: 0;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1695,7 +1717,7 @@ ul.portfolio-image {
     .mybox3 hr {
         width: 50%;
         padding: 0;
-        margin-bottom: 10%;
+        margin: 0;
         margin-left: auto;
         margin-right: auto;
     }

@@ -60,6 +60,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="PublishingImages\bt-asean-capitalmarket.PNG" />
     <Content Include="PublishingImages\bt-bond-supermarket.PNG" />
+    <Content Include="PublishingImages\bt-CG.jpg" />
     <Content Include="PublishingImages\bt-fintech-forums.PNG" />
     <Content Include="PublishingImages\icon-about.png" />
     <Content Include="PublishingImages\icon-AnonymUser.png" />
@@ -98,7 +99,6 @@
     <Content Include="js\main.js" />
     <Content Include="js\smooth-scroll.min.js" />
     <Content Include="PublishingImages\bt-Asean.jpg" />
-    <Content Include="PublishingImages\bt-CG.jpg" />
     <Content Include="PublishingImages\bt-investors.png" />
     <Content Include="PublishingImages\bt-License.jpg" />
     <Content Include="PublishingImages\bt-Question-Complaint.png" />
