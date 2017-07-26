@@ -171,7 +171,7 @@ nav {
 
     /*------ header -----*/
     .for-sticky {
-        padding: 10px 100px 5px 15px;
+        padding: 10px 70px 5px 15px;
     }
 
     .logo-nav {
@@ -363,19 +363,16 @@ nav {
         width: 40%;
         float: left;
     }
-
-
         .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
             padding: 0;
         }
-
 
         .box7-Left hr {
             display: none;
         }
 
         .box7-Left p {
-            font-size: 0.9em;
+            font-size: 0.6em;
             font-weight: bold;
             display: inline;
         }
@@ -502,7 +499,7 @@ nav {
         .box7-Left p {
             margin-top: 0;
             padding-right: 10px;
-            font-size: 0.5em;
+            font-size: 0.7em;
         }
 
     .box7-Center {
@@ -539,7 +536,39 @@ nav {
     .block1 {
         display: none;
     }
+
+    .box8 {
+        height: auto;
+        width: 100%;
+    }
+
+        .box8 h3 {
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        .box8 img {
+            float: none;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .box8 hr {
+            display: block;
+        }
+
+        .box8 .bt-navyblue {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .mybox3 {
+            display: none;
+        }
 }
+
+
+
 
 @media only screen and (max-width : 320px), only screen and (max-device-width : 320px) {
     nav li a {

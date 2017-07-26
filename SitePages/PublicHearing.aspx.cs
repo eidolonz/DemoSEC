@@ -14,7 +14,7 @@ namespace DemoSec.SitePages
             if (!IsPostBack)
             {
 
-                block1.Attributes.CssStyle.Add("background-color", "blue");
+                block1.Attributes.CssStyle.Add("background-color", "#003764");
             }
 
         }
@@ -27,7 +27,7 @@ namespace DemoSec.SitePages
 
             block1.Attributes.CssStyle.Clear();
             block1.Attributes.CssStyle.Add("background-color", "none");
-            block2.Attributes.CssStyle.Add("background-color", "blue");
+            block2.Attributes.CssStyle.Add("background-color", "#003764");
         }
 
         protected void btn_send_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace DemoSec.SitePages
 
             block2.Attributes.CssStyle.Clear();
             block2.Attributes.CssStyle.Add("background-color", "none");
-            block3.Attributes.CssStyle.Add("background-color", "blue");
+            block3.Attributes.CssStyle.Add("background-color", "#003764");
         }
     }
 }

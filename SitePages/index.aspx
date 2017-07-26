@@ -7,6 +7,15 @@
         .container {
             padding: 30px;
         }
+        #mobileFooter{
+            display:none;
+        }
+        footer{
+            display:none;
+        }
+        #mobileFixFooter{
+            display:none;
+        }
         #tcbNavBar{
             display: none !important;
         }

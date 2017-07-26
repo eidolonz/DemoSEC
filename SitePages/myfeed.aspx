@@ -17,6 +17,11 @@
 
         .col-margin-bottom-5 {
             margin-bottom: 5px;
+        }.textBtn {
+            border: none;
+            background: none;
+        } .navy {
+            color: #003764 !important;
         }
     </style>
 </asp:Content>
@@ -27,8 +32,11 @@
             <div class="col-xs-4 col-md-2">
                 <div class="text-left" id="text-title-mobile"><strong>My Feed</strong></div>
             </div>
-            <div class="col-xs-3 col-xs-push-5 col-md-1 col-md-push-4">
-                <a href="#"><strong>Edit <span class="glyphicon glyphicon-cog"></span></strong></a>
+            <div class="col-xs-3 col-xs-push-5 col-md-1 col-md-push-4 navy">
+                <asp:LinkButton Text="Edit" runat="server" id="btn_edit" OnClick="btn_edit_Click" CssClass="textBtn">
+                    <span>Edit&nbsp;<span class="glyphicon glyphicon-cog" aria-hidden="true"></span></span>
+                </asp:LinkButton>
+                <%--<a href="#"><strong>Edit <span class="glyphicon glyphicon-cog"></span></strong></a>--%>
             </div>
         </div>
         <div class="desktop">

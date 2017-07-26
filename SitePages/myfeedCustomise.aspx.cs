@@ -13,5 +13,39 @@ namespace DemoSec.SitePages
         {
 
         }
+
+        protected void btn_byContent_Click(object sender, EventArgs e)
+        {
+            byContent.Visible = !byContent.Visible;
+            if (!byContent.Visible)
+            {
+                lawReg.Visible = byContent.Visible;
+            }
+        }
+        
+
+        protected void btn_lawReg_Click(object sender, EventArgs e)
+        {
+            lawReg.Visible = !lawReg.Visible;            
+        }
+
+        protected void btn_byCategory_Click(object sender, EventArgs e)
+        {
+            byCategories.Visible = !byCategories.Visible;
+            if (!byCategories.Visible)
+            {
+                category.Visible = byCategories.Visible;
+            }
+        }
+
+        protected void btn_category_Click(object sender, EventArgs e)
+        {
+            category.Visible = !category.Visible;
+        }
+
+        protected void btn_save_Click(object sender, EventArgs e)
+        {
+            Extension.Redirect(Page, "myfeed.aspx");
+        }
     }
 }

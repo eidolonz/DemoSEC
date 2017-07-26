@@ -13,5 +13,10 @@ namespace DemoSec.SitePages
         {
 
         }
+
+        protected void btn_edit_Click(object sender, EventArgs e)
+        {
+            Extension.Redirect(Page, "myfeedCustomise.aspx");
+        }
     }
 }
