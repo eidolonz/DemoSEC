@@ -390,16 +390,17 @@ img {
     }
 /* Menu */
 .menu-wrap {
-    position: fixed;
+    position: relative;
     z-index: 1001;
+    overflow:hidden;
     width: 300px;
     height: 100%;
     right: 0;
     float: right;
     background: #2f2f2f;
     padding: 2.5em 1.5em 0;
-    -webkit-transform: translate3d(300px, 0, 0);
-    transform: translate3d(300px, 0, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -105%, 0);
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
     -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
@@ -413,15 +414,15 @@ img {
 }
 
 .menu-list {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
 }
 
     .menu-list a {
         display: block;
         padding: 1.5em 0;
-        -webkit-transform: translate3d(0, 500px, 0);
-        transform: translate3d(0, 500px, 0);
+        -webkit-transform: translate3d(500px, 0,  0);
+        transform: translate3d(500px, 0, 0);
         color: #a5a5a5;
         position: relative;
     }
@@ -439,28 +440,28 @@ img {
     }
 
 .menu a:nth-child(2) {
-    -webkit-transform: translate3d(0, 1000px, 0);
-    transform: translate3d(0, 1000px, 0);
+    -webkit-transform: translate3d(1000px, 0, 0);
+    transform: translate3d(1000px, 0, 0);
 }
 
 .menu-list a:nth-child(3) {
-    -webkit-transform: translate3d(0, 1500px, 0);
-    transform: translate3d(0, 1500px, 0);
+    -webkit-transform: translate3d(1500px, 0, 0);
+    transform: translate3d(1500px, 0, 0);
 }
 
 .menu-list a:nth-child(4) {
-    -webkit-transform: translate3d(0, 2000px, 0);
-    transform: translate3d(0, 2000px, 0);
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
 }
 
 .menu-list a:nth-child(5) {
-    -webkit-transform: translate3d(0, 2500px, 0);
-    transform: translate3d(0, 2500px, 0);
+    -webkit-transform: translate3d(2500px, 0, 0);
+    transform: translate3d(2500px, 0, 0);
 }
 
 .menu-list a:nth-child(6) {
-    -webkit-transform: translate3d(0, 3000px, 0);
-    transform: translate3d(0, 3000px, 0);
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
 }
 
 .menu-list a span:nth-last-child(1) {
