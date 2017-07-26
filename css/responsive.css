@@ -83,7 +83,6 @@ nav {
 
 
     .mybox1 {
-        border-top: 0.4rem solid #009f99;
         margin-top: 10px;
         width: 100%;
         height: auto;
@@ -301,8 +300,8 @@ nav {
         display: none;
     }
 
-    .desktop{
-        display:block;
+    .desktop {
+        display: block;
     }
 
     .desktop-nav {
@@ -341,8 +340,9 @@ nav {
     .mobile-nav {
         display: none;
     }
-    .desktop{
-        display:block;
+
+    .desktop {
+        display: block;
     }
 
     .desktop-nav {
@@ -363,6 +363,7 @@ nav {
         width: 40%;
         float: left;
     }
+
         .box7-Left .col-xs-4, .col-xs-5, .col-xs-7, .col-xs-8, .col-lg-12 {
             padding: 0;
         }
@@ -416,10 +417,11 @@ nav {
             width: auto;
             height: 25px;
         }
-        
-    .desktop{
-        display:none;
+
+    .desktop {
+        display: none;
     }
+
     .desktop-nav {
         display: none;
     }
@@ -562,9 +564,10 @@ nav {
             margin-left: auto;
             margin-right: auto;
         }
-        .mybox3 {
-            display: none;
-        }
+
+    .mybox3 {
+        display: none;
+    }
 }
 
 
@@ -600,10 +603,11 @@ nav {
             width: auto;
             height: 20px;
         }
-        
-    .desktop{
-        display:none;
+
+    .desktop {
+        display: none;
     }
+
     .desktop-nav {
         display: none;
     }

@@ -8,10 +8,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%--<asp:ScriptManager runat="server" />--%>
-    <div class="container">
-        <div class="text-left" id="text-title"></div>
+    <div class="container" style="width: 100%">
 
         <asp:UpdatePanel runat="server">
+
             <ContentTemplate>
                 <div class="mybox3">
                     <a href="#">
@@ -37,10 +37,12 @@
                 </div>
 
                 <div class="box6">
+                    
                     <asp:Panel ID="Step1" runat="server">
-                        <h2>Public </h2>
-                        <h2>Hearing</h2>
-
+                        <div class="box7-title">
+                            <h2>Public </h2>
+                            <h2>Hearing</h2>
+                        </div>
                         <br />
                         <div class="box7-Left">
                             <hr />
@@ -146,7 +148,9 @@
                             <div class="col-xs-6 col-md-12 col-lg-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio6" value="option1">
-                                    <label for="radio6">Other <input type="text" class="text-input" aria-describedby="basic-addon1"></label>
+                                    <label for="radio6">
+                                        Other
+                                        <input type="text" class="text-input" aria-describedby="basic-addon1"></label>
                                 </div>
                             </div>
                         </div>

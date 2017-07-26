@@ -36,19 +36,22 @@ TABLE OF CONTENTS:
     font-weight: normal;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: 'Kanit-Bold';
     font-style: normal;
     font-weight: normal;
     src: url('fonts/Kanit-Bold.ttf') format('truetype');
 }
-@font-face{
+
+@font-face {
     font-family: 'UtSaHaGumm';
     font-style: normal;
     font-weight: normal;
     src: url('fonts/UtSaHaGumm.otf') format('truetype');
 }
-@font-face{
+
+@font-face {
     font-family: 'UtSaHaGummLTThai';
     font-style: normal;
     font-weight: normal;
@@ -67,7 +70,6 @@ TABLE OF CONTENTS:
 
 body,
 html {
-    
     color: #003764;
     font-size: 16px;
     line-height: 1.7;
@@ -95,7 +97,6 @@ footer {
     background-color: #003764;
     height: 20px;
     color: #fff;
-    
 }
 
 
@@ -413,7 +414,7 @@ img {
 .menu-wrap {
     position: relative;
     z-index: 1001;
-    overflow:hidden;
+    overflow: hidden;
     width: 300px;
     height: 100%;
     right: 0;
@@ -442,7 +443,7 @@ img {
     .menu-list a {
         display: block;
         padding: 1.5em 0;
-        -webkit-transform: translate3d(500px, 0,  0);
+        -webkit-transform: translate3d(500px, 0, 0);
         transform: translate3d(500px, 0, 0);
         color: #a5a5a5;
         position: relative;
@@ -1540,6 +1541,7 @@ ul.portfolio-image {
     height: auto;
     width: auto;
     text-align: center;
+    color: #000000;
 }
 
 
@@ -1556,10 +1558,8 @@ ul.portfolio-image {
 }
 
 .box6 {
-    font-family: 'UtSaHaGummLTThai', sans-serif;
     margin-top: 10px;
-    padding-top: 5%;
-    padding: 5%;
+    font-family: 'UtSaHaGummLTThai', sans-serif;
     height: auto;
     width: 84%;
     float: left;
@@ -1579,10 +1579,15 @@ ul.portfolio-image {
     }
 
 
+.box7-title {
+    width: auto;
+    margin: 5%;
+}
 
 .box7-Left {
-    margin-top: 5%;
-    padding-left: 20px;
+    margin-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 20px;
     height: auto;
     width: 40%;
     float: left;
@@ -1658,13 +1663,13 @@ ul.portfolio-image {
 #text-title {
     color: #003763;
     font-size: 5vh;
-    font-weight: 500;
+    font-weight: bold;
     margin-top: 5%;
+    margin-left: 15px;
 }
 
 
 .mybox1 {
-    border-top: 0.4rem solid #009f99;
     margin-top: 10px;
     width: 84%;
     height: auto;
@@ -1698,7 +1703,7 @@ ul.portfolio-image {
         margin-right: auto;
     }
 
-    .mybox3 {
+.mybox3 {
     margin-top: 10px;
     width: 15%;
     height: auto;
@@ -2057,4 +2062,29 @@ textarea {
     padding: 10px;
     background-color: transparent;
     border: 1px solid #fff;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    position: relative;
+    background-color: #afaeb0;
+}
+
+    .bar > div {
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to right, #009e98 20%, #3d6474, #003764) no-repeat;
+        animation: load 1s ease-in-out;
+    }
+
+@keyframes load {
+    
+    from {
+        width:0%;
+    }
+
+    to {
+        width:100%;
+    }
 }
