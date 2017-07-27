@@ -49,7 +49,9 @@ nav {
         display: block;
         float: left;
         font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
-        padding: 10px;
+        
+        margin: 9px 0;
+        padding:0;
         text-align: center;
         text-decoration: none;
         width: 12.5%;
@@ -71,8 +73,8 @@ nav {
         width: 33.33%;
         font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin: 9px 0;
+        padding:0;
     }
 
     nav li:last-child a {
@@ -266,8 +268,8 @@ nav {
         width: 33.33%;
         font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin: 9px 0;
+        padding:0;
     }
 
     nav li:nth-child(even) a {
@@ -321,8 +323,8 @@ nav {
         width: 33.33%;
         font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin: 9px 0;
+        padding:0;
     }
 
     nav li:nth-child(even) a {
@@ -385,8 +387,8 @@ nav {
         width: 33.33%;
         font: 400 10px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin: 9px 0;
+        padding:0;
     }
 
     nav li:nth-child(even) a {
@@ -601,8 +603,8 @@ nav {
         width: 33.33%;
         font: 400 10px 'Cutive', Helvetica, Verdana, Arial, sans-serif;
         font-weight: bold;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        margin: 9px 0;
+        padding:0;
     }
 
     nav li:nth-child(even) a {

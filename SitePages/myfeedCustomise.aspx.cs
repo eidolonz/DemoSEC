@@ -26,7 +26,15 @@ namespace DemoSec.SitePages
 
         protected void btn_lawReg_Click(object sender, EventArgs e)
         {
-            lawReg.Visible = !lawReg.Visible;            
+            lawReg.Visible = !lawReg.Visible;
+            if (lawReg.Visible)
+            {
+                lawReg.Attributes.CssStyle.Add("height", "256px");
+            }
+            else
+            {
+                lawReg.Attributes.CssStyle.Clear();
+            }
         }
 
         protected void btn_byCategory_Click(object sender, EventArgs e)

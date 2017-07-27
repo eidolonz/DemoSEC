@@ -22,24 +22,6 @@ namespace DemoSec.SitePages {
         protected global::System.Web.UI.WebControls.Button btn_save;
         
         /// <summary>
-        /// btn_byContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_byContent;
-        
-        /// <summary>
-        /// byContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl byContent;
-        
-        /// <summary>
         /// chk_lawReg control.
         /// </summary>
         /// <remarks>
@@ -49,42 +31,6 @@ namespace DemoSec.SitePages {
         protected global::System.Web.UI.WebControls.CheckBox chk_lawReg;
         
         /// <summary>
-        /// btn_lawReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_lawReg;
-        
-        /// <summary>
-        /// lawReg control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lawReg;
-        
-        /// <summary>
-        /// btn_byCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_byCategory;
-        
-        /// <summary>
-        /// byCategories control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl byCategories;
-        
-        /// <summary>
         /// chk_category control.
         /// </summary>
         /// <remarks>
@@ -92,24 +38,6 @@ namespace DemoSec.SitePages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chk_category;
-        
-        /// <summary>
-        /// btn_category control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_category;
-        
-        /// <summary>
-        /// category control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl category;
         
         /// <summary>
         /// txt_keywords control.

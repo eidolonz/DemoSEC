@@ -107,8 +107,8 @@
             display: inline;
             float: right;
             position: relative;
-            width: 47px;
-            height: 47px;
+            width: 42px;
+            height: 42px;
             margin: 0 !important;
             /*margin: 3px 75px 3px 0px;*/
         }
@@ -327,7 +327,7 @@
                 </div>
                 <!--/.HEADER END-->
                 <!--CONTENT WRAP-->
-                <div class="container" style="margin-top: 50px">
+                <div class="container" style="margin-top: 47px">
 
                     <!-- banner -->
                     <img class="desktop" src="../../../PublishingImages/picture1.png" />
@@ -361,7 +361,7 @@
                     <div class="row box1" id="siteNav">
                         <div class="col-xs-12 col-lg-10" style="text-align: center;">
                             <nav>
-                                <ul>
+                                <ul style="padding:0;">
                                     <li><a href="home.aspx">Home</a></li>
                                     <li><a href="#">News & Activity</a></li>
                                     <li><a href="myfeed.aspx">My Feed</a></li>
