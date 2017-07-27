@@ -13,6 +13,8 @@
         <asp:UpdatePanel runat="server">
 
             <ContentTemplate>
+
+                <%-- Nav Step --%>
                 <div class="mybox3">
                     <a href="#">
                         <div class="block1 center-block" runat="server" id="block1">
@@ -35,15 +37,23 @@
                         </div>
                     </a>
                 </div>
+                <%-- / Nav Step --%>
 
+
+                <%-- Content --%>
                 <div class="box6">
-                    
+
+                    <%-- Step 1 --%>
                     <asp:Panel ID="Step1" runat="server">
+
+                        <%-- Box7 Title --%>
                         <div class="box7-title">
                             <h2>Public </h2>
                             <h2>Hearing</h2>
                         </div>
                         <br />
+
+                        <%-- Box7 Left --%>
                         <div class="box7-Left">
                             <hr />
                             <div class="row">
@@ -90,21 +100,28 @@
 
 
                         </div>
+
+                        <%-- Box7 Center --%>
                         <div class="box7-Center">
                             <img src="../PublishingImages/icon-OR.png" class="center-block" width="60%" />
                         </div>
+
+                        <%-- Box7 Right --%>
                         <div class="box7-Right">
                             <a href="#">
                                 <img src="../PublishingImages/login-facebook.png" /></a>
                             <a href="#">
                                 <img src="../PublishingImages/login-google.png" /></a>
                         </div>
+
                     </asp:Panel>
 
+                    <%-- Step 2 --%>
                     <asp:Panel ID="Step2" runat="server" Visible="false">
-                        <h2>Public </h2>
-                        <h2>Hearing</h2>
-
+                        <div class="box7-title">
+                            <h2>Public </h2>
+                            <h2>Hearing</h2>
+                        </div>
                         <br />
                         <%-- 1. Please describe yourself --%>
                         <div class="row">
@@ -160,7 +177,7 @@
                         <%-- 2. How often do you visit our website ? --%>
                         <div class="row">
                             <div class="col-xs-12 col-md-12 col-lg-12">
-                                <h3>2. How often do you visit our website ?</h3>
+                                <h4>2. How often do you visit our website ?</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -198,8 +215,8 @@
                         and services on our website ? --%>
                         <div class="row">
                             <div class="col-xs-12 col-md-12 col-lg-12">
-                                <h3>3. What is the level of your overall satisfaction with the infomation 
-                        and services on our website ?</h3>
+                                <h4>3. What is the level of your overall satisfaction with the infomation 
+                        and services on our website ?</h4>
                             </div>
                             <div class="padding-left10">
                                 <div class="col-xs-4 col-md-12 col-lg-o col-lg-3">
@@ -227,7 +244,7 @@
                         <%-- 4. Additional comments : --%>
                         <div class="row">
                             <div class="col-xs-12 col-md-12 col-lg-12">
-                                <h3>4. Additional comments :</h3>
+                                <h4>4. Additional comments :</h4>
                             </div>
                             <div class="padding-left10">
                                 <div class="col-xs-8 col-md-12 col-lg-9">
@@ -242,18 +259,21 @@
                         </div>
                     </asp:Panel>
 
+                    <%-- Step 3 --%>
                     <asp:Panel ID="Step3" runat="server" Visible="false">
-                        <div class="box8">
+                        <div class="box8 center-block">
                             <img src="../PublishingImages/icon-finish.png" />
 
-                            <h3>Thank your for taking time to fill out this online survey. 
-                            Your feedback will help  us improve our website  to better serve your needs.</h3>
+                            <h4>Thank your for taking time to fill out this online survey. 
+                            Your feedback will help  us improve our website  to better serve your needs.</h4>
                             <hr />
                             <asp:Button Text="Home" runat="server" CssClass="bt-navyblue mobile" Style="float: none" />
                         </div>
 
                     </asp:Panel>
+
                 </div>
+                <%-- / Content --%>
 
             </ContentTemplate>
         </asp:UpdatePanel>

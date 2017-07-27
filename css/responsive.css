@@ -565,12 +565,15 @@ nav {
     }
 
     .box8 {
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
-        width: 100%;
+        width: 80%;
     }
 
-        .box8 h3 {
-            font-size: 1.3em;
+        .box8 h4 {
+            font-family: 'UtSaHaGumm';
+            font-size: 1em;
             text-align: center;
         }
 

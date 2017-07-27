@@ -67,7 +67,6 @@ TABLE OF CONTENTS:
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    
 }
 
 body,
@@ -79,7 +78,7 @@ html {
     top: 0;
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'UtSaHaGumm', 'UtSaHaGummLTThai';
     height: auto;
     width: 100%;
     background: -webkit-linear-gradient(#dcd8d6,#fff); /* For Safari 5.1 to 6.0 */
@@ -635,8 +634,8 @@ h2,
 h3,
 h4,
 h5 {
+    font-family: 'UtSaHaGumm';
     letter-spacing: 0.8px;
-    font-family: BrowalliaUPC;
     font-weight: bold;
 }
 
@@ -1580,72 +1579,79 @@ ul.portfolio-image {
 /* Base for label styling */
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
-  position: absolute;
-  left: -9999px;
-}
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-  position: relative;
-  padding-left: 1.95em;
-  cursor: pointer;
+    position: absolute;
+    left: -9999px;
 }
 
-/* checkbox aspect */
-[type="checkbox"]:not(:checked) + label:before,
-[type="checkbox"]:checked + label:before {
-  content: '';
-  position: absolute;
-  left: 0; top: 0;
-  width: 1.25em; height: 1.25em;
-  color:white;
-  border: 2px solid #003764;
-  background: transparent;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
-}
-/* checked mark aspect */
-[type="checkbox"]:not(:checked) + label:after,
-[type="checkbox"]:checked + label:after {
-  content: '✓';
-  position: absolute;
-  top: 0.05em; left: 0.05em;
-  font-size: 1.2em;
-  line-height: 0.8;
-  border: 2px solid #003764;
-  background: #003764;
-  color: white;
-  transition: all .2s;
-}
-/* checked mark aspect changes */
-[type="checkbox"]:not(:checked) + label:after {
-  opacity: 0;
-  transform: scale(0);
-}
-[type="checkbox"]:checked + label:after {
-  opacity: 1;
-  transform: scale(1);
-}
+    [type="checkbox"]:not(:checked) + label,
+    [type="checkbox"]:checked + label {
+        position: relative;
+        padding-left: 1.95em;
+        cursor: pointer;
+    }
+
+        /* checkbox aspect */
+        [type="checkbox"]:not(:checked) + label:before,
+        [type="checkbox"]:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1.25em;
+            height: 1.25em;
+            color: white;
+            border: 2px solid #003764;
+            background: transparent;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+        }
+        /* checked mark aspect */
+        [type="checkbox"]:not(:checked) + label:after,
+        [type="checkbox"]:checked + label:after {
+            content: '✓';
+            position: absolute;
+            top: 0.05em;
+            left: 0.05em;
+            font-size: 1.2em;
+            line-height: 0.8;
+            border: 2px solid #003764;
+            background: #003764;
+            color: white;
+            transition: all .2s;
+        }
+        /* checked mark aspect changes */
+        [type="checkbox"]:not(:checked) + label:after {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        [type="checkbox"]:checked + label:after {
+            opacity: 1;
+            transform: scale(1);
+        }
 /* disabled checkbox */
 [type="checkbox"]:disabled:not(:checked) + label:before,
 [type="checkbox"]:disabled:checked + label:before {
-  box-shadow: none;
-  border-color: #bbb;
-  background-color: #ddd;
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
 }
+
 [type="checkbox"]:disabled:checked + label:after {
-  color: #999;
+    color: #999;
 }
+
 [type="checkbox"]:disabled + label {
-  color: #aaa;
+    color: #aaa;
 }
 /* accessibility */
 [type="checkbox"]:checked:focus + label:before,
 [type="checkbox"]:not(:checked):focus + label:before {
-  border: 2px solid #003764;
+    border: 2px solid #003764;
 }
 
 /* hover style just for information */
 label:hover:before {
-  border: 2px solid #003764 !important;
+    border: 2px solid #003764 !important;
 }
 
 
@@ -1701,6 +1707,7 @@ label:hover:before {
 
 .box6 {
     margin-top: 5%;
+    padding: 5%;
     font-family: 'UtSaHaGummLTThai', sans-serif;
     height: auto;
     width: 84%;
@@ -1724,12 +1731,11 @@ label:hover:before {
 .box7-title {
     font-family: UtSaHaGumm;
     width: auto;
-    margin: 5%;
 }
 
 .box7-Left {
     margin-bottom: 5%;
-    padding-left: 8%;
+    padding-left: 3%;
     padding-right: 20px;
     height: auto;
     width: 40%;
@@ -1746,7 +1752,7 @@ label:hover:before {
     }
 
     .box7-Left p {
-        font-size: 0.9em;
+        font-size: 1.3em;
         font-weight: bold;
         display: inline;
     }
@@ -1774,7 +1780,6 @@ label:hover:before {
 .box8 {
     height: auto;
     width: 100%;
-    float: left;
 }
 
     .box8 img {
@@ -2076,15 +2081,15 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 10px;
     width: 60px;
     height: 30px;
-    padding-top: 5px;
     color: #fff;
     background-color: #003764;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 400;
     text-align: center;
 }
 
 .block1 {
+    font-family: 'UtSaHaGumm';
     padding: 10px;
     display: block;
     width: auto;
@@ -2093,13 +2098,15 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
     .block1 h1 {
-        font-size: 4em;
+        font-family: 'UtSaHaGumm';
+        font-size: 4vw;
         padding: 0;
         margin: 0;
     }
 
     .block1 h3 {
-        font-size: 2em;
+
+        font-size: 2vw;
         padding: 0;
         margin: 0;
     }
@@ -2110,15 +2117,17 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
     .radio label {
+        font-family: 'UtSaHaGumm';
         display: inline-block;
         position: relative;
         padding-left: 5px;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: bold;
     }
 
         .radio label::before {
             content: "";
+            font-family: 'UtSaHaGumm';
             display: inline-block;
             position: absolute;
             width: 17px;
@@ -2245,7 +2254,6 @@ textarea {
     }
 }
 
-.tcbCollaspe{
-
+.tcbCollaspe {
     transition: 0.5s linear;
 }
