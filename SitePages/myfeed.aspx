@@ -73,9 +73,9 @@
             </div>
         </div>
         <div class="mybox2 desktop">
-            <a href="#">
+            <a href="myfeedcustomise.aspx">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block1">
-                    <span class="glyphicon glyphicon-cog" style="font-size: 3em;"></span>
+                    <span class="glyphicon glyphicon-cog" style="font-size: 2em;"></span>
                     <br />
                     <span style="font-size: 1em;"><strong>Customise<br />
                         My Feed</strong></span>
@@ -84,7 +84,7 @@
             <hr />
             <a href="#">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block2">
-                    <span class="glyphicon glyphicon-bookmark" style="font-size: 3em;"></span>
+                    <span class="glyphicon glyphicon-bookmark" style="font-size: 2em;"></span>
                     <br />
                     <span style="font-size: 1em;"><strong>My Favourite</strong></span>
                 </div>

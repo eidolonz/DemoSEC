@@ -40,5 +40,10 @@ namespace DemoSec.SitePages
             block2.Attributes.CssStyle.Add("background-color", "none");
             block3.Attributes.CssStyle.Add("background-color", "#003764");
         }
+
+        protected void btn_home_Click(object sender, EventArgs e)
+        {
+            Extension.Redirect(Page, "home.aspx");
+        }
     }
 }

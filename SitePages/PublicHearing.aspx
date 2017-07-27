@@ -267,7 +267,7 @@
                             <h4>Thank your for taking time to fill out this online survey. 
                             Your feedback will help  us improve our website  to better serve your needs.</h4>
                             <hr />
-                            <asp:Button Text="Home" runat="server" CssClass="bt-navyblue mobile" Style="float: none" />
+                            <asp:Button Text="Home" runat="server" ID="btn_home" OnClick="btn_home_Click" CssClass="bt-navyblue mobile" Style="float: none" />
                         </div>
 
                     </asp:Panel>

@@ -20,15 +20,41 @@
 
 
     <style>
-        body{
+        body {
             background-color: black;
         }
+
         table {
-            font-family: 'Comic Sans MS';
-            font-size: 12px;
+            font-family: 'Kanit';
+            font-size: 0.8em;
         }
 
-        .container {
+        .bullhorn {
+            position: absolute;
+            right: 12.7%;
+            width: 12%;
+            height: auto;
+            z-index: 1;
+            padding: 15px;
+            margin-top: 75px;
+            font-family: 'Kanit';
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 1;
+            color: white;
+            background: -webkit-linear-gradient(#00a19a,#093b66);
+            background: linear-gradient(#00a19a,#093b66);
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+            .bullhorn img {
+                width: 50%;
+                float: left;
+                padding: 0 10px;
+            }
+
+        /*.container {
             width: 100% !important;
             padding: 0;
         }
@@ -82,7 +108,6 @@
         }
 
         .right-nav {
-            /*padding: 10px 5% 3px 0px;*/
             right: 0;
             padding-right: 0;
             background: #aeaeae;
@@ -114,7 +139,6 @@
             width: 47px;
             height: 47px;
             margin: 0 !important;
-            /*margin: 3px 75px 3px 0px;*/
         }
 
             .menu-button:hover {
@@ -140,7 +164,6 @@
             }
 
         .menu-wrap {
-            /*display:none;*/
             height: auto;
             top: 3px;
         }
@@ -206,9 +229,9 @@
         }
         .navbar-fixed-top{
             height:47px;
-        }
+        }*/
 
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 767px) {
             .menu-wrap {
                 width: 80%;
             }
@@ -221,14 +244,31 @@
                 z-index: 1000;
                 background: rgba(0,0,0,0.8);
             }
+
+            .bullhorn {
+                right: 0;
+                width: 30%;
+                margin-top: 25px;
+                padding:10px;
+                font-size: 0.8em;
+                border-bottom-left-radius: 7px;
+                border-top-left-radius: 7px;
+            }
+
+                .bullhorn img {
+                    width: 45%;
+                    float: left;
+                    padding: 0 10px 0 0;
+                }
         }
 
         @media screen and (min-width: 768px) {
             .for-sticky {
                 max-width: 74.6%;
             }
-            .navFixTop{
-                max-width:74.6%;
+
+            .navFixTop {
+                max-width: 74.6% !important;
             }
 
             .main-container {
@@ -243,11 +283,11 @@
             }
 
             .fixedTop {
-                width: 74.6%;
+                width: 74.6% !important;
             }
 
             .navProgBar {
-                width: 74.6%;
+                width: 74.6% !important;
             }
         }
     </style>
@@ -387,9 +427,12 @@
                     <!--/.for-sticky-->
                 </div>
                 <div class="container" style="margin-top: 47px">
-
                     <!-- banner -->
                     <img class="desktop" src="../../../PublishingImages/picture1.png" />
+                    <!-- Public Hearing -->
+                    <a href="publichearing.aspx" id="bullhorn" class="bullhorn">
+                        <img src="../PublishingImages/icon-bullhorn.png" />
+                        <span>Public Hearing</span></a>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -525,7 +568,7 @@
                     fn_set_fix_breadcrumb_top();
 
                     $(window).scroll(function () {
-                        
+
                         fn_set_fix_breadcrumb_top();
                     });
 
