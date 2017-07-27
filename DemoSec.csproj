@@ -71,6 +71,7 @@
     <Content Include="PublishingImages\icon-home-nav.png" />
     <Content Include="PublishingImages\icon-myfeed.png" />
     <Content Include="PublishingImages\icon-news.png" />
+    <Content Include="PublishingImages\icon-notification1.png" />
     <Content Include="PublishingImages\icon-OR.png" />
     <Content Include="PublishingImages\icon-user.png" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
