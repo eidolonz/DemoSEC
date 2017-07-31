@@ -9,9 +9,11 @@
             padding-left: 0;
             padding-right: 0;
         }
+
         .col-padding-left-2 {
             padding-left: 2px;
         }
+
         .col-padding-right-2 {
             padding-right: 2px;
         }
@@ -30,16 +32,15 @@
         }
 
         @media screen and (max-width: 767px) {
-            .mybox1{
-                padding:0;
-                margin-top:0;
+            .mybox1 {
+                padding: 0;
+                margin-top: 0;
             }
-            #myfeed_container{
-                padding:10px;
-            }
-        
-        }
 
+            #myfeed_container {
+                padding: 10px;
+            }
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -104,7 +105,7 @@
         <div class="mybox2 desktop">
             <a href="myfeedcustomise.aspx">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block1">
-                        <div class="icon-bar">
+                    <div class="icon-bar">
                         <img src="../PublishingImages/pic-customise.png" />
                     </div>
                     <br />
@@ -115,7 +116,7 @@
             <hr />
             <a href="#">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block2">
-                     <img src="../PublishingImages/pic-favorite.png" />
+                    <img src="../PublishingImages/pic-favorite.png" />
                     <br />
                     <span style="font-size: 1em;">My Favourite</span>
                 </div>
@@ -124,6 +125,10 @@
     </div>
 
 
-
+    <script>
+        $(document).ready(function () {
+            document.getElementById('Feed').className = "selected-nav";
+        });
+    </script>
 
 </asp:Content>

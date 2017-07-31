@@ -69,7 +69,11 @@
         </div>
 
 
-
+        <script>
+            $(document).ready(function () {
+                document.getElementById('Home').className = "selected-nav";
+            });
+    </script>
 
 
 

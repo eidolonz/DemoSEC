@@ -35,6 +35,17 @@
             width: 100%;
         }
 
+        .selected-nav {
+            background-color: #093b66;
+            float: left;
+            width: 33.33%;
+        }
+
+            .selected-nav a {
+                width: 100%;
+                color: white !important;
+            }
+
         .bullhorn {
             position: absolute;
             right: 12.7%;
@@ -53,10 +64,9 @@
             border-top-left-radius: 10px;
             -webkit-transition: width 0.4s ease-in-out;
             transition: width 0.4s ease-in-out;
-            animation-duration: 1.2s;
+            animation-duration: 3s;
             animation-name: slidein;
             animation-iteration-count: infinite;
-            animation-delay:1s;
             animation-direction: alternate;
         }
 
@@ -65,10 +75,9 @@
                 line-height: 1;
                 -webkit-transition: font-size 0.4s ease;
                 transition: font-size 0.4s ease;
-                animation-duration: 1.2s;
+                animation-duration: 3s;
                 animation-name: slidein-span;
                 animation-iteration-count: infinite;
-            animation-delay:1s;
                 animation-direction: alternate;
             }
 
@@ -76,10 +85,9 @@
                 width: 50px;
                 float: left;
                 padding: 0 10px;
-                animation-duration: 1.2s;
+                animation-duration: 3s;
                 animation-name: slidein-img;
                 animation-iteration-count: infinite;
-            animation-delay:1s;
                 animation-direction: alternate;
             }
 
@@ -100,44 +108,77 @@
                 }
 
                 .bullhorn:hover img {
-                    min-width: 50px;
-                    width: 50%;
+                    min-width: 40px;
+                    width: 45%;
                     animation: none;
                 }
 
 
         @keyframes slidein {
-            from {
+            0% {
                 width: 4%;
                 padding: 15px 5px;
             }
 
-            to {
+            40% {
+                width: 4%;
+                padding: 15px 5px;
+            }
+
+            60% {
+                width: 12%;
+                padding: 15px;
+            }
+
+            100% {
                 width: 12%;
                 padding: 15px;
             }
         }
 
         @keyframes slidein-img {
-            from {
+            0% {
                 width: 50px;
+                padding: 0 10px;
             }
 
-            to {
-                min-width: 50px;
-                width: 50%;
+            40% {
+                width: 50px;
+                padding: 0 10px;
+            }
+
+            60% {
+                min-width: 40px;
+                width: 45%;
+            }
+
+            100% {
+                min-width: 40px;
+                width: 45%;
             }
         }
+
         @keyframes slidein-span {
-            from {
+            0% {
                 font-size: 0em;
                 line-height: 1;
             }
 
-            to {
+            40% {
+                font-size: 0em;
+                line-height: 1;
+            }
+
+            60% {
                 font-size: 1em;
                 line-height: 1;
-                color:white;
+                color: white;
+            }
+
+            100% {
+                font-size: 1em;
+                line-height: 1;
+                color: white;
             }
         }
 
@@ -228,17 +269,98 @@
                 padding: 10px 5px;
                 border-bottom-left-radius: 7px;
                 border-top-left-radius: 7px;
+                animation-duration: 3s;
+                animation-name: slidein;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
             }
 
                 .bullhorn span {
                     font-size: 0.8em;
+                    animation-duration: 3s;
+                    animation-name: slidein-span;
+                    animation-iteration-count: infinite;
+                    = animation-direction: alternate;
                 }
 
                 .bullhorn img {
                     width: 45%;
                     float: left;
                     padding: 0 10px 0 0;
+                    animation-duration: 3s;
+                    animation-name: slidein-img;
+                    animation-iteration-count: infinite;
+                    = animation-direction: alternate;
                 }
+
+            @keyframes slidein {
+                0% {
+                    width: 15%;
+                    padding: 15px 5px;
+                }
+
+                40% {
+                    width: 15%;
+                    padding: 15px 5px;
+                }
+
+                60% {
+                    width: 30%;
+                    padding: 15px;
+                }
+
+                100% {
+                    width: 30%;
+                    padding: 15px;
+                }
+            }
+
+            @keyframes slidein-img {
+                0% {
+                    width: 30px;
+                    padding-right: 0;
+                }
+
+                40% {
+                    width: 30px;
+                    padding-right: 0;
+                }
+
+                60% {
+                    min-width: 30px;
+                    width: 45%;
+                }
+
+                100% {
+                    min-width: 30px;
+                    width: 45%;
+                }
+            }
+
+            @keyframes slidein-span {
+                0% {
+                    font-size: 0em;
+                    line-height: 1;
+                }
+
+                40% {
+                    font-size: 0em;
+                    line-height: 1;
+                }
+
+                60% {
+                    font-size: 0.8em;
+                    line-height: 1;
+                    color: white;
+                }
+
+                100% {
+                    font-size: 0.8em;
+                    line-height: 1;
+                    color: white;
+                }
+            }
+
 
             .right-nav {
                 background-color: #e5e6e5;
@@ -463,29 +585,18 @@
 
 
                     <div class="row box1 siteNav" id="siteNav">
-                        <%--<div style="text-align: center;">
+                        <div class="col-xs-12 col-lg-10" style="text-align: center; margin: 0;">
                             <nav>
                                 <ul style="padding: 0;">
-                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Home</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">content</a></li>
-                                            <li><a href="#">content</a></li>
-                                            <li><a href="#">content</a></li>
-                                        </ul>
+                                    <li>
+                                        <div id="Home" name="nav" class=""><a class="transition" href="home.aspx" onclick="navBarClick('Home');">Home</a></div>
                                     </li>
-                                    <li><a href="#">News & Activity</a></li>
-                                    <li><a class="transition" href="myfeed.aspx">My Feed</a></li>
-                                </ul>
-                            </nav>
-
-                        </div>
-                        <div class="col-xs-0 col-md-2">&nbsp;</div>--%>
-                        <div class="col-xs-12 col-lg-10" style="text-align: center;">
-                            <nav>
-                                <ul style="padding: 0;">
-                                    <li><a class="transition" href="home.aspx">Home</a></li>
-                                    <li><a href="#">News & Activity</a></li>
-                                    <li><a class="transition" href="myfeed.aspx">My Feed</a></li>
+                                    <li>
+                                        <div id="News" name="nav" class=""><a href="#">News & Activity</a></div>
+                                    </li>
+                                    <li>
+                                        <div id="Feed" name="nav" class=""><a class="transition" href="myfeed.aspx" onclick="navBarClick('Feed');">My Feed</a></div>
+                                    </li>
                                 </ul>
                             </nav>
 
@@ -498,7 +609,7 @@
             </asp:ContentPlaceHolder>
 
             <!-- Nav Social -->
-            <div class="container">
+            <div class="container" id="nav-social">
                 <center class="mar-top-15">
             <div class="col-md-12">
                 <ul class="social-network social-circle">
@@ -615,15 +726,7 @@
                         $('.menu-button').addClass('toggled');
                     }
                 }
-                //function btnColor(btn) {
-                //    var property = document.getElementById(btn);
-                //    if (property.className !== 'menu-button toggled') {
-                //        property.className = 'menu-button toggled'
-                //    }
-                //    else {
-                //        property.className = 'menu-button';
-                //    }
-                //}
+
 
 
             </script>

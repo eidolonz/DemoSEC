@@ -53,7 +53,7 @@
 
         .chk-myFeed label {
             margin-left: 10px;
-                    font-weight: normal;
+            font-weight: normal;
         }
 
         .sub-content {
@@ -82,9 +82,9 @@
             color: #003764;
         }
 
-        #myfeedCustomise{
-            font-family:Kanit;
-            font-weight:normal;
+        #myfeedCustomise {
+            font-family: Kanit;
+            font-weight: normal;
         }
 
         .row_collapse label {
@@ -92,10 +92,11 @@
             margin-bottom: 0px;
             padding-top: 0 !important;
             font-size: 1.2em;
-                    font-weight: normal;
+            font-weight: normal;
         }
-        .mybox2{
-            margin-top:0;
+
+        .mybox2 {
+            margin-top: 0;
             padding-top: 0;
         }
 
@@ -276,8 +277,8 @@
                     </div>
                     <%-- ByCategory1 --%>
 
-                        <a class="col-xs-12 col-md-12 headText">By Keywords</a>
-                    
+                    <a class="col-xs-12 col-md-12 headText">By Keywords</a>
+
                     <div class="col-xs-12 col-md-4">
                         <asp:TextBox runat="server" CssClass="form-control" ID="txt_keywords" />
                         <br />
@@ -309,7 +310,7 @@
         <script type="text/javascript">
             $(document).ready(function () {
                 fn_fix_breadcrumb_top_init();
-
+                document.getElementById('Feed').className = "selected-nav";
             });
 
             function fn_toggle_navbar() {

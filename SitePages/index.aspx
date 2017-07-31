@@ -4,10 +4,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <style>
+        html,body{            
+            background:#aeaeae;
+        }
         .container {
             padding: 30px;
         }
         #mobileFooter{
+            display:none;
+        }
+        #nav-social{
             display:none;
         }
         footer{

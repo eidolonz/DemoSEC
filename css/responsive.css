@@ -89,12 +89,17 @@ nav {
             margin:10px;
             border-right:1px solid #003763;
             border-left:1px solid #003763;
+            padding:0 10px;
         }
         .mybox2 img:first-child{
             border:none;
+            margin:10px 0;
+            padding:0;
         }
         .mybox2 img:last-child{
             border:none;
+            margin-left:10px 0;
+            padding:0;
         }
 
         .mybox2 hr {
