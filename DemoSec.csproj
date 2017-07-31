@@ -123,6 +123,8 @@
     <Content Include="PublishingImages\login-google.png" />
     <Content Include="PublishingImages\logo-sec.png" />
     <Content Include="PublishingImages\logo-white.png" />
+    <Content Include="PublishingImages\pic-customise.png" />
+    <Content Include="PublishingImages\pic-favorite.png" />
     <Content Include="PublishingImages\picture1.png" />
     <Content Include="PublishingImages\pic_slide1.png" />
     <Content Include="PublishingImages\sec.icon.png" />

@@ -14,7 +14,7 @@
     <div>
         <div class="container">
 
-            <div class="text-left" id="text-title">Hot Topic</div>
+            <div class="text-left text-title">Hot Topic</div>
 
             <div class="mybox1 " id="mybox1" style="border: none;">
                 <div class="bar">
