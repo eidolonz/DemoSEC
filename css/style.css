@@ -709,7 +709,7 @@ nav ul {
     top: 3px;
     float: right;
     padding: 2.5em 1.5em 0;
-    margin-right:5%;
+    margin-right: 5%;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -105%, 0);
     -webkit-transition: -webkit-transform 0.4s;
@@ -930,7 +930,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Kanit';
+    font-family: 'UtSaHaGumm';
     letter-spacing: 0.8px;
     font-weight: bold;
 }
@@ -2025,11 +2025,12 @@ label:hover:before {
 
 
 .box7-title {
-    font-family: UtSaHaGumm;
+    font-family: 'UtSaHaGumm';
     width: auto;
 }
 
 .box7-Left {
+    font-family: 'UtSaHaGumm';
     margin-bottom: 5%;
     padding-left: 3%;
     padding-right: 20px;
@@ -2144,7 +2145,7 @@ label:hover:before {
         width: 50%;
         padding: 0;
         margin: 0;
-        border-color:#003764;
+        border-color: #003764;
         margin-left: auto;
         margin-right: auto;
     }

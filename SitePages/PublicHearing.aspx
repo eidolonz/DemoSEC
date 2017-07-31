@@ -126,7 +126,7 @@
                         <%-- 1. Please describe yourself --%>
                         <div class="row">
                             <div class="col-xs-12 col-md-12 col-lg-12">
-                                <h3>1. Please describe yourself</h3>
+                                <h4>1. Please describe yourself</h4>
                             </div>
                         </div>
                         <div class="row">
