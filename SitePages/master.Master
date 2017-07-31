@@ -298,6 +298,9 @@
             .navFixTop {
                 background-color: #e5e6e5;
             }
+            .carousel-inner img{
+                min-height: 200px;
+            }
         }
 
         @media screen and (min-width: 768px) {
@@ -484,16 +487,16 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="../../../PublishingImages/pic1.png">
+                                <img src="../../../PublishingImages/slide_1.png">
                             </div>
                             <div class="item">
-                                <img src="../../../PublishingImages/pic2.png">
+                                <img src="../../../PublishingImages/slide_2.png">
                             </div>
                             <div class="item">
-                                <img src="../../../PublishingImages/pic3.png">
+                                <img src="../../../PublishingImages/slide_3.png">
                             </div>
                             <div class="item">
-                                <img src="../../../PublishingImages/pic3.png">
+                                <img src="../../../PublishingImages/slide_4.png">
                             </div>
                         </div>
                     </div>
