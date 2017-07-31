@@ -4,7 +4,6 @@
 
     <%-- Add mod_masterPage CSS to all pages --%>
     <link href="../css/mod_masterPage.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -51,41 +50,26 @@
         <div class="container">
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
                     <img src="../PublishingImages/pic_slide1.png" style="width: 100%">
                     <div class="text">FinTech Forum </div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
                     <img src="../PublishingImages/pic_slide1.png" style="width: 100%">
                     <div class="text">Caption Two</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
                     <img src="../PublishingImages/pic_slide1.png" style="width: 100%">
                     <div class="text">Caption Three</div>
                 </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="bt-prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="bt-next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
 
 
 
-        <!-- Nav Social -->
-        <div class="container">
-            <center class="mar-top-15">
-            <div class="col-md-12">
-                <ul class="social-network social-circle">
-                    <li><a href="#" class="iconFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="iconTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="iconYoutube" title="Youtube"><i class="fa fa-youtube-play"></i></a></li>
-                </ul>
-            </div>
-        </center>
-        </div>
 
 
 

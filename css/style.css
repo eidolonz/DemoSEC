@@ -183,10 +183,11 @@ TABLE OF CONTENTS:
     src: url("../fonts/UtSaHaGummLTThai.ttf") format('truetype');
 }
 
-.Kanit{
+.Kanit {
     font-family: 'Kanit' !important;
 }
-.UtSaHaGum{
+
+.UtSaHaGum {
     font-family: 'UtSaHaGumm' !important;
 }
 
@@ -221,9 +222,9 @@ html {
 footer {
     background-color: #003764;
     display: block;
-    position:absolute;
-    left:0;
-    width:100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -329,8 +330,8 @@ td {
 .right-nav {
     /*padding: 10px 5% 3px 0px;*/
     right: 0;
-    padding-right: 0;
-    background: #c0c0c0;
+    padding-right: 5%;
+    background: #aeaeae;
     z-index: 1002;
 }
 
@@ -368,15 +369,17 @@ td {
     top: 45px;
     position: fixed !important;
     width: 100%;
-    height:3px !important;
+    height: 3px !important;
     z-index: 1002;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
- .navProgBar div{
-     height: 3px !important;
- }
+
+    .navProgBar div {
+        height: 3px !important;
+    }
+
 nav ul {
     overflow: visible;
     margin-bottom: 0;
@@ -396,7 +399,7 @@ nav ul {
 .navFixTop {
     width: 100%;
     margin: 0 auto;
-    background: #c0c0c0;
+    background: #aeaeae;
     height: 47px;
 }
 
@@ -449,6 +452,7 @@ nav ul {
 .mar-top-10 {
     margin-top: 10% !important;
 }
+
 .mar-top-15 {
     margin-top: 15% !important;
 }
@@ -705,6 +709,7 @@ nav ul {
     top: 3px;
     float: right;
     padding: 2.5em 1.5em 0;
+    margin-right:5%;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -105%, 0);
     -webkit-transition: -webkit-transform 0.4s;
@@ -1877,7 +1882,7 @@ ul.portfolio-image {
     [type="checkbox"]:not(:checked) + label,
     [type="checkbox"]:checked + label {
         position: relative;
-        padding: 5px 0 5px 1.95em ;
+        padding: 5px 0 5px 1.95em;
         cursor: pointer;
     }
 
@@ -2101,7 +2106,7 @@ label:hover:before {
 
 #text-title {
     color: #003763;
-    font-size: 5vh;
+    font-size: 1.2em;
     font-weight: bold;
     margin-top: 5%;
     margin-left: 15px;
@@ -2125,7 +2130,7 @@ label:hover:before {
     float: right;
     background-color: #dcd8d6;
     overflow: hidden;
-    line-height:1;
+    line-height: 1;
 }
 
     .mybox2 img {
@@ -2138,6 +2143,7 @@ label:hover:before {
         width: 50%;
         padding: 0;
         margin: 0;
+        border-color:#003764;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2185,7 +2191,7 @@ label:hover:before {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.bt-prev, .bt-next {
     position: absolute;
     top: 50%;
     padding: 30px;
@@ -2198,12 +2204,12 @@ label:hover:before {
 }
 
 /* Position the "next button" to the right */
-.next {
+.bt-next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-    
+
 
 /* Caption text */
 .text {
@@ -2272,7 +2278,7 @@ label:hover:before {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next, .text {
+    .bt-prev, .bt-next, .text {
         font-size: 11px;
     }
 }
@@ -2374,7 +2380,7 @@ a.socialIcon:hover, .socialHoverClass {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    border:none;
+    border: none;
 }
 
 .block1 {

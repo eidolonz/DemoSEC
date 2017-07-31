@@ -34,7 +34,7 @@ nav {
 
     nav li a {
         background-color: transparent;
-        border-right: 1px solid #fff;
+        border-right: 1px solid #003763;
         color: #003763;
         display: block;
         float: left;
@@ -52,18 +52,6 @@ nav {
         color: #ff0000;
         font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
         text-transform: none;
-    }
-
-    nav li a {
-        display: block;
-        background-color: transparent;
-        border-right: 1px solid #fff;
-        color: #003763;
-        width: 33.33%;
-        font: 400 12px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
-        font-weight: bold;
-        margin: 9px 0;
-        padding: 0;
     }
 
     nav li:last-child a {
@@ -95,9 +83,18 @@ nav {
     }
 
         .mybox2 img {
-            width: 30%;
+            width: 25%;
             height: auto;
             display: inline;
+            margin:10px;
+            border-right:1px solid #003763;
+            border-left:1px solid #003763;
+        }
+        .mybox2 img:first-child{
+            border:none;
+        }
+        .mybox2 img:last-child{
+            border:none;
         }
 
         .mybox2 hr {
@@ -320,13 +317,6 @@ nav {
         padding: 0;
     }
 
-    nav li:nth-child(even) a {
-        border-right: 1px solid #fff;
-    }
-
-    nav li:nth-child(5) a, nav li:nth-child(6) a {
-        border-bottom: none;
-    }
 
     .mobile {
         display: none;
@@ -373,7 +363,7 @@ nav {
             display: inline;
         }
     /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
+    .bt-prev:hover, .bt-next:hover {
         background-color: rgba(0,0,0,0.8);
         width: 30px;
     }
@@ -389,13 +379,6 @@ nav {
         padding: 0;
     }
 
-    nav li:nth-child(even) a {
-        border-right: 1px solid #fff;
-    }
-
-    nav li:nth-child(5) a, nav li:nth-child(6) a {
-        border-bottom: none;
-    }
 
     .for-sticky {
         /*padding-left:0 !important;*/
