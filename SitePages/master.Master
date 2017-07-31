@@ -32,27 +32,57 @@
         .bullhorn {
             position: absolute;
             right: 12.7%;
-            width: 12%;
+            width: 4%;
             height: auto;
             z-index: 1;
-            padding: 15px;
+            padding: 15px 5px;
             margin-top: 75px;
             font-family: 'Kanit';
-            font-size: 1em;
             font-weight: 300;
-            line-height: 1;
+            line-height: 0;
             color: white;
             background: -webkit-linear-gradient(#00a19a,#093b66);
             background: linear-gradient(#00a19a,#093b66);
             border-bottom-left-radius: 10px;
             border-top-left-radius: 10px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
         }
 
+            .bullhorn span {
+                font-size: 0em;
+                line-height:1;
+                -webkit-transition: font-size 0.4s ease;
+                transition: font-size 0.4s ease;
+            }
+
             .bullhorn img {
-                width: 50%;
+                width: 50px;
                 float: left;
                 padding: 0 10px;
             }
+
+            .bullhorn:hover {
+                opacity: 1;
+                width: 12%;
+                font-size: 1em;
+                padding: 15px;
+                color: white;
+            }
+
+                .bullhorn:hover span {
+                    font-size: 1em;
+                    -webkit-transition-delay: 0.1s; /* Safari */
+                    transition-delay: 0.1s;
+                }
+
+                .bullhorn:hover img {
+                    min-width: 50px;
+                    width: 50%;
+                }
+
+
+
 
         /*.container {
             width: 100% !important;
@@ -249,7 +279,7 @@
                 right: 0;
                 width: 30%;
                 margin-top: 25px;
-                padding:10px;
+                padding: 10px;
                 font-size: 0.8em;
                 border-bottom-left-radius: 7px;
                 border-top-left-radius: 7px;
@@ -260,6 +290,14 @@
                     float: left;
                     padding: 0 10px 0 0;
                 }
+
+            .right-nav {
+                background-color: #e5e6e5;
+            }
+
+            .navFixTop {
+                background-color: #e5e6e5;
+            }
         }
 
         @media screen and (min-width: 768px) {
@@ -326,7 +364,8 @@
 
 
                         </div>
-                        <div class="menu-wrap" style="padding: 0px; background: linear-gradient(#192430,#174871);">
+                        <%--<div class="menu-wrap" style="padding: 0px; background: linear-gradient(#192430,#174871);">--%>
+                        <div class="menu-wrap" style="padding: 0px; background-image: linear-gradient(rgba(0,0,0,1),rgba(5,65,115,0.9));">
                             <nav class="menu">
                                 <div class="menu-list">
                                     <table style="color: white; width: 100%;">
@@ -432,7 +471,7 @@
                     <!-- Public Hearing -->
                     <a href="publichearing.aspx" id="bullhorn" class="bullhorn">
                         <img src="../PublishingImages/icon-bullhorn.png" />
-                        <span>Public Hearing</span></a>
+                        <span>Public<br />Hearing</span></a>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
