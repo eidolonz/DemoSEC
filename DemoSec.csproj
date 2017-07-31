@@ -123,12 +123,13 @@
     <Content Include="PublishingImages\login-google.png" />
     <Content Include="PublishingImages\logo-sec.png" />
     <Content Include="PublishingImages\logo-white.png" />
-    <Content Include="PublishingImages\pic1.png" />
-    <Content Include="PublishingImages\pic2.png" />
-    <Content Include="PublishingImages\pic3.png" />
     <Content Include="PublishingImages\picture1.png" />
     <Content Include="PublishingImages\pic_slide1.png" />
     <Content Include="PublishingImages\sec.icon.png" />
+    <Content Include="PublishingImages\slide_1.png" />
+    <Content Include="PublishingImages\slide_2.png" />
+    <Content Include="PublishingImages\slide_3.png" />
+    <Content Include="PublishingImages\slide_4.png" />
     <Content Include="SitePages\home.aspx" />
     <Content Include="SitePages\index.aspx" />
     <Content Include="SitePages\master.Master" />
