@@ -38,11 +38,11 @@
             </div>
 
             <div class="mybox2">
-                <img src="../PublishingImages/bt-SEC-Investors.png" />
+                <img src="../PublishingImages/bt-SEC-Investors.png" width="95%" />
                 <hr />
-                <img src="../PublishingImages/bt-Question-Complaint.png" />
+                <img src="../PublishingImages/bt-Question-Complaint.png"  width="95%"/>
                 <hr />
-                <img src="../PublishingImages/bt-SearchLaws-Regulations.png" />
+                <img src="../PublishingImages/bt-SearchLaws-Regulations.png" width="95%" />
             </div>
 
         </div>
@@ -76,7 +76,7 @@
 
         <!-- Nav Social -->
         <div class="container">
-            <center class="mar-t-10">
+            <center class="mar-top-15">
             <div class="col-md-12">
                 <ul class="social-network social-circle">
                     <li><a href="#" class="iconFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
