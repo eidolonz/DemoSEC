@@ -2104,10 +2104,11 @@ label:hover:before {
 }
 
 
-#text-title {
+.text-title {
     color: #003763;
     font-size: 1.2em;
     font-weight: bold;
+    letter-spacing: 1px;
     margin-top: 5%;
     margin-left: 15px;
 }
