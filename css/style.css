@@ -218,7 +218,9 @@ html {
     background: -moz-linear-gradient(#dcd8d6,#fff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#dcd8d6,#fff); /* Standard syntax */
 }
-
+table{
+    border-collapse:separate !important;
+}
 footer {
     background-color: #003764;
     display: block;
@@ -302,7 +304,7 @@ thead {
     }
 
 tbody td {
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 tbody tr:hover {
@@ -325,6 +327,7 @@ tbody tr:hover {
 
 td {
     padding-left: 10px;
+    min-height:36px;
 }
 
 .right-nav {
@@ -1891,7 +1894,7 @@ ul.portfolio-image {
             content: '';
             position: absolute;
             left: 0;
-            top: 0;
+            /*top: 0;*/
             width: 1.25em;
             height: 1.25em;
             color: white;
@@ -1904,7 +1907,7 @@ ul.portfolio-image {
         [type="checkbox"]:checked + label:after {
             content: '✓';
             position: absolute;
-            top: 0.05em;
+            top: 0.25em;
             left: 0.05em;
             font-size: 1.2em;
             line-height: 0.8;
@@ -2109,13 +2112,13 @@ label:hover:before {
     font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-top: 5%;
-    margin-left: 15px;
+    /*margin-top: 5%;*/
+    margin-left: 10px;
 }
 
 
 .mybox1 {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     width: 84%;
     height: auto;
     text-align: center;

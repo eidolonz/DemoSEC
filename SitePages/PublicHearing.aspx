@@ -130,45 +130,47 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6 col-md-12 col-lg-o col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio1" value="option1">
                                     <label for="radio1">Invevestor</label>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-md-12 col-lg-o col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio2" value="option1">
                                     <label for="radio2">Student</label>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-md-12 col-lg-3 ">
+                            <div class="col-xs-6 col-md-3 ">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio3" value="option1">
                                     <label for="radio3">Private Company</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6 col-md-12 col-lg-3 ">
+                            <div class="clearfix visible-sm visible-md visible-lg"></div>
+                            <div class="col-xs-6 col-md-3 ">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio4" value="option1">
                                     <label for="radio4">Goverment </label>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-md-12 col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio5" value="option1">
                                     <label for="radio5">Media</label>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-md-12 col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio1" id="radio6" value="option1">
                                     <label for="radio6">
-                                        Other
-                                        <input type="text" class="text-input" aria-describedby="basic-addon1"></label>
+                                    Other
                                 </div>
+                            </div>
+                            <div class="col-md-3  visible-sm visible-md visible-lg">
+
+                                <input type="text" class="text-input" aria-describedby="basic-addon1"></label>
                             </div>
                         </div>
 
@@ -181,27 +183,26 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-5 col-md-12 col-lg-o col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio2" id="radio7" value="option1">
                                     <label for="radio7">Daily</label>
                                 </div>
                             </div>
-                            <div class="col-xs-5 col-md-12 col-lg-o col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio2" id="radio8" value="option1">
                                     <label for="radio8">Weekly</label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-5 col-md-12 col-lg-3">
+                            <div class="clearfix"></div>
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio2" id="radio9" value="option1">
                                     <label for="radio9">Twice a week</label>
                                 </div>
                             </div>
-                            <div class="col-xs-5 col-md-12 col-lg-3">
+                            <div class="col-xs-6 col-md-3">
                                 <div class="radio radio-primary">
                                     <input type="radio" name="radio2" id="radio10" value="option1">
                                     <label for="radio10">Monthly</label>
@@ -218,20 +219,22 @@
                                 <h4>3. What is the level of your overall satisfaction with the infomation 
                         and services on our website ?</h4>
                             </div>
+                            </div>
+                        <div class="row">
                             <div class="padding-left10">
-                                <div class="col-xs-4 col-md-12 col-lg-o col-lg-3">
+                                <div class="col-xs-4 col-md-3">
                                     <div class="radio radio-primary">
                                         <input type="radio" name="radio3" id="radio11" value="option1">
                                         <label for="radio11">High</label>
                                     </div>
                                 </div>
-                                <div class="col-xs-4 col-md-12 col-lg-3">
+                                <div class="col-xs-4 col-md-3">
                                     <div class="radio radio-primary">
                                         <input type="radio" name="radio3" id="radio12" value="option1">
                                         <label for="radio12">Moderate</label>
                                     </div>
                                 </div>
-                                <div class="col-xs-4 col-md-12 col-lg-3">
+                                <div class="col-xs-4 col-md-3">
                                     <div class="radio radio-primary">
                                         <input type="radio" name="radio" id="radio13" value="option1">
                                         <label for="radio13">Low</label>
@@ -274,7 +277,6 @@
 
                 </div>
                 <%-- / Content --%>
-
             </ContentTemplate>
         </asp:UpdatePanel>
     </div>

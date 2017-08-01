@@ -216,10 +216,19 @@
             min-height: 300px;
         }
 
+        .invisible{
+            display:none;
+        }
 
-
-
+        .menu-wrap .bg-contain{
+             width: 35px; height: 18px;
+        }
         @media screen and (max-width: 767px) {
+
+            .col-xs-padding-0 {
+                padding: 0;
+            }
+
             .main-container {
                 background-color: white;
             }
@@ -227,6 +236,26 @@
             .menu-wrap {
                 width: 80%;
                 margin-right: 0;
+            }
+
+            .menu-button {
+                border-left: 1px solid rgba(0,55,100,0.6);
+            }
+
+                .menu-button span {
+                    margin: 15px auto !important;
+                }
+
+                    .menu-button span:nth-child(2) {
+                        top: 6px;
+                    }
+
+                    .menu-button span:nth-child(3) {
+                        top: 12px;
+                    }
+
+            .mar-top-15 {
+                margin-top: 15px !important;
             }
 
             .bg-banner-1 {
@@ -280,7 +309,7 @@
                     animation-duration: 3s;
                     animation-name: slidein-span;
                     animation-iteration-count: infinite;
-                    = animation-direction: alternate;
+                    animation-direction: alternate;
                 }
 
                 .bullhorn img {
@@ -290,7 +319,7 @@
                     animation-duration: 3s;
                     animation-name: slidein-img;
                     animation-iteration-count: infinite;
-                    = animation-direction: alternate;
+                    animation-direction: alternate;
                 }
 
             @keyframes slidein {
@@ -328,12 +357,12 @@
 
                 60% {
                     min-width: 30px;
-                    width: 45%;
+                    width: 50%;
                 }
 
                 100% {
                     min-width: 30px;
-                    width: 45%;
+                    width: 50%;
                 }
             }
 
@@ -349,13 +378,13 @@
                 }
 
                 60% {
-                    font-size: 0.8em;
+                    font-size: 0.6em;
                     line-height: 1;
                     color: white;
                 }
 
                 100% {
-                    font-size: 0.8em;
+                    font-size: 0.6em;
                     line-height: 1;
                     color: white;
                 }
@@ -375,9 +404,17 @@
                 min-height: 200px;
                 width: 100%;
             }
+            .mybox2 img{
+                float:left;
+                width:33.33%;
+            }
         }
 
         @media screen and (min-width: 768px) {
+            .col-md-padding-0 {
+                padding: 0;
+            }
+
             .for-sticky {
                 max-width: 74.6%;
             }
@@ -466,60 +503,54 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <%--<td class="td-icon nav-icon">
-                                                    <a href="#"><span class="glyphicon glyphicon-home"></span></a>
-                                                </td>--%>
                                                 <td class="td-icon">
-                                                    <a href="home.aspx" style="background: url('../PublishingImages/icon-home-nav.png') no-repeat center; background-size: contain; width: 35px; height: 18px;"></a>
+                                                    <a class="bg-contain" href="home.aspx" style="background: url('../PublishingImages/icon-home-nav.png') no-repeat center; background-size: contain;"></a>
                                                 </td>
                                                 <td><a href="home.aspx">Home</a></td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a href="#news" style="background: url('../PublishingImages/icon-news.png') no-repeat center; background-size: contain; width: 35px; height: 18px;"></a>
+                                                    <a class="bg-contain" href="#news" style="background: url('../PublishingImages/icon-news.png') no-repeat center; background-size: contain;"></a>
                                                 </td>
                                                 <td><a href="#news">News & Activities</a></td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a href="myfeed.aspx" style="background: url('../PublishingImages/icon-myfeed.png') no-repeat center; background-size: contain; width: 35px; height: 18px;"></a>
+                                                    <a class="bg-contain" href="myfeed.aspx" style="background: url('../PublishingImages/icon-myfeed.png') no-repeat center; background-size: contain;"></a>
                                                 </td>
-                                                <%--<td class="td-icon nav-icon"><a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a></td>--%>
                                                 <td>
                                                     <a href="myfeed.aspx">My Feed</a>
                                                 </td>
                                                 <td id="myfeedConfig" class=" nav-icon">
-                                                    <a style="background: url('../PublishingImages/icon-cog.png') no-repeat center; background-size: contain; width: 35px; height: 18px;" href="myfeedcustomise.aspx"></a>
-                                                    <%--<a href="#"><span class="glyphicon glyphicon-cog"></span></a>--%>
-
+                                                    <a class="bg-contain" style="background: url('../PublishingImages/icon-cog.png') no-repeat center; background-size: contain;" href="myfeedcustomise.aspx"></a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a style="background: url('../PublishingImages/icon-notification.png') no-repeat center; background-size: contain; width: 35px; height: 18px;" href="#"></a>
+                                                    <a class="bg-contain" style="background: url('../PublishingImages/icon-notification.png') no-repeat center; background-size: contain;" href="#"></a>
                                                 </td>
                                                 <td><a href="#">Notification</a></td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a style="background: url('../PublishingImages/icon-eSub.png') no-repeat center; background-size: contain; width: 35px; height: 18px;" href="#"></a>
+                                                    <a class="bg-contain" style="background: url('../PublishingImages/icon-eSub.png') no-repeat center; background-size: contain;" href="#"></a>
                                                 </td>
                                                 <td><a href="#">e-Subscribe</a></td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a style="background: url('../PublishingImages/icon-about.png') no-repeat center; background-size: contain; width: 35px; height: 18px;" href="#"></a>
+                                                    <a class="bg-contain" style="background: url('../PublishingImages/icon-about.png') no-repeat center; background-size: contain;" href="#"></a>
                                                 </td>
                                                 <td><a href="#">About SEC</a></td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td class="td-icon">
-                                                    <a style="background: url('../PublishingImages/icon-contact.png') no-repeat center; background-size: contain; width: 35px; height: 18px;" href="#"></a>
+                                                    <a class="bg-contain" style="background: url('../PublishingImages/icon-contact.png') no-repeat center; background-size: contain;" href="#"></a>
                                                 </td>
                                                 <td><a href="#">Contact Us</a></td>
                                                 <td></td>
@@ -585,7 +616,7 @@
 
 
                     <div class="row box1 siteNav" id="siteNav">
-                        <div class="col-xs-12 col-lg-10" style="text-align: center; margin: 0;">
+                        <div class="col-xs-12 col-xs-padding-0 col-lg-10 col-md-padding-0" style="text-align: center; margin: 0;">
                             <nav>
                                 <ul style="padding: 0;">
                                     <li>
@@ -602,6 +633,7 @@
 
                         </div>
                     </div>
+                    <div class="box1 stubSiteNav invisible"></div>
                 </div>
             </div>
             <asp:ScriptManager runat="server" />
@@ -638,7 +670,7 @@
             <footer>
                 <div class="footer-desktop">
                     <div class="mobile">
-                        Copyright www.sec.or.th 2013  &nbsp; Privacy | Disclaimer | Site Map
+                        Copyright www.sec.or.th 2013<br />  &nbsp; Privacy Policy | Disclaimer | Site Map
                     </div>
                 </div>
             </footer>
@@ -699,7 +731,7 @@
                     });
 
                     function fn_set_fix_breadcrumb_top() {
-                        var sWidth = 115;
+                        var sWidth = 200;
                         if (window.matchMedia('(min-width: 768px)').matches) {
                             sWidth = 425;
                         }
@@ -707,10 +739,12 @@
 
                         if ($(window).scrollTop() < sWidth) {
                             if ($('.siteNav').hasClass('fixedTop')) {
+                                $('.stubSiteNav').addClass('invisible');
                                 $('.siteNav').removeClass('fixedTop');
                             }
                         } else {
                             if (!$('.siteNav').hasClass('fixedTop')) {
+                                $('.stubSiteNav').removeClass('invisible');
                                 $('.siteNav').addClass('fixedTop');
                             }
                         }
