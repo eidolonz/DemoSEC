@@ -250,8 +250,8 @@
                                 <h4>4. Additional comments :</h4>
                             </div>
                             <div class="padding-left10">
-                                <div class="col-xs-8 col-md-12 col-lg-9">
-                                    <textarea rows="4" cols="50"></textarea>
+                                <div class="col-xs-12 col-md-12 col-lg-9">
+                                    <textarea rows="4"></textarea>
                                 </div>
                                 <hr />
                                 <div class="col-xs-12 col-lg-4">
