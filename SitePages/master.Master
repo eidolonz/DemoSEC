@@ -28,8 +28,9 @@
             font-family: 'Kanit';
             font-size: 0.8em;
         }
-        .img-banner{
-            width:100%;
+
+        .img-banner {
+            width: 100%;
         }
 
         .carousel-inner img {
@@ -77,14 +78,13 @@
                 line-height: 1;
                 -webkit-transition: font-size 0.4s ease;
                 transition: font-size 0.4s ease;
-
-			    -webkit-animation-duration: 3s;
+                -webkit-animation-duration: 3s;
                 animation-duration: 3s;
                 -webkit-animation-name: slidein-span;
                 animation-name: slidein-span;
-			    -webkit-animation-iteration-count: infinite;
+                -webkit-animation-iteration-count: infinite;
                 animation-iteration-count: infinite;
-			    -webkit-animation-direction: alternate;
+                -webkit-animation-direction: alternate;
                 animation-direction: alternate;
             }
 
@@ -96,13 +96,12 @@
                 animation-name: slidein-img;
                 animation-iteration-count: infinite;
                 animation-direction: alternate;
-
             }
 
             .bullhorn:hover {
                 opacity: 1;
                 width: 12%;
-                max-width:175px;
+                max-width: 175px;
                 font-size: 1em;
                 padding: 15px;
                 color: white;
@@ -136,13 +135,13 @@
 
             60% {
                 width: 12%;
-            max-width:175px;
+                max-width: 175px;
                 padding: 15px;
             }
 
             100% {
                 width: 12%;
-            max-width:175px;
+                max-width: 175px;
                 padding: 15px;
             }
         }
@@ -161,40 +160,17 @@
             60% {
                 min-width: 40px;
                 width: 45%;
-			max-width:65px;
+                max-width: 65px;
             }
 
             100% {
                 min-width: 40px;
                 width: 45%;
-            max-width:65px;
+                max-width: 65px;
             }
         }
 
-        @keyframes slidein-span{
-            0% {
-                font-size: 0em;
-                line-height: 1;
-            }
-
-            40% {
-                font-size: 0em;
-                line-height: 1;
-            }
-
-            60% {
-                font-size: 1em;
-                line-height: 1;
-                color: white;
-            }
-
-            100% {
-                font-size: 1em;
-                line-height: 1;
-                color: white;
-            }
-        }
-			@-webkit-keyframes slidein-span{
+        @keyframes slidein-span {
             0% {
                 font-size: 0em;
                 line-height: 1;
@@ -218,12 +194,37 @@
             }
         }
 
+        @-webkit-keyframes slidein-span {
+            0% {
+                font-size: 0em;
+                line-height: 1;
+            }
 
-        .bg-banner{
-            width:100%;
-            height:auto;
-            visibility:hidden;
+            40% {
+                font-size: 0em;
+                line-height: 1;
+            }
+
+            60% {
+                font-size: 1em;
+                line-height: 1;
+                color: white;
+            }
+
+            100% {
+                font-size: 1em;
+                line-height: 1;
+                color: white;
+            }
         }
+
+
+        .bg-banner {
+            width: 100%;
+            height: auto;
+            visibility: hidden;
+        }
+
         .bg-banner-1 {
             background-image: url(../PublishingImages/slide_1.png);
             background-repeat: no-repeat;
@@ -256,13 +257,15 @@
             min-height: 300px;
         }
 
-        .invisible{
-            display:none;
+        .invisible {
+            display: none;
         }
 
-        .menu-wrap .bg-contain{
-             width: 35px; height: 18px;
+        .menu-wrap .bg-contain {
+            width: 35px;
+            height: 18px;
         }
+
         @media screen and (max-width: 767px) {
 
             .col-xs-padding-0 {
@@ -444,9 +447,10 @@
                 min-height: 200px;
                 width: 100%;
             }
-            .mybox2 img{
-                float:left;
-                width:33.33%;
+
+            .mybox2 img {
+                float: left;
+                width: 33.33%;
             }
         }
 
@@ -461,6 +465,10 @@
 
             .navFixTop {
                 max-width: 74.6% !important;
+            }
+
+            .text-title {
+                margin-top: 5%;
             }
 
             .main-container {
@@ -489,8 +497,6 @@
                 background: linear-gradient(to right, #aeaeae, #bbbbbb); /* Standard syntax */
             }
         }
-
-       
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -712,7 +718,8 @@
             <footer>
                 <div class="footer-desktop">
                     <div class="mobile">
-                        Copyright www.sec.or.th 2013<br />  &nbsp; Privacy Policy | Disclaimer | Site Map
+                        Copyright www.sec.or.th 2013<br />
+                        &nbsp; Privacy Policy | Disclaimer | Site Map
                     </div>
                 </div>
             </footer>
@@ -764,37 +771,37 @@
                     }
                 });
 
-                        
-					function fn_fix_breadcrumb_top(){
-	                    $(window).scroll(function (){
-	                            fn_set_fix_breadcrumb_top();
-	                        });
-						    function fn_set_fix_breadcrumb_top(){
 
-	                            var section = $('.siteNav');
-					            var stubSection = $('.stubSiteNav');
-						        var offset = section.offset().top - 47;
-					            var stubOffset = stubSection.offset().top - 47;
-						        var scrollTop = $(window).scrollTop();
+                function fn_fix_breadcrumb_top() {
+                    $(window).scroll(function () {
+                        fn_set_fix_breadcrumb_top();
+                    });
+                    function fn_set_fix_breadcrumb_top() {
 
-								if(scrollTop < offset  || scrollTop < stubOffset){
-                                        section.removeClass('fixedTop');
-                                        stubSection.addClass('invisible');
-			                    }else{
-                                        section.addClass('fixedTop');
-                                        stubSection.removeClass('invisible');
-								}
-							
-	                        }
-					}
+                        var section = $('.siteNav');
+                        var stubSection = $('.stubSiteNav');
+                        var offset = section.offset().top - 47;
+                        var stubOffset = stubSection.offset().top - 47;
+                        var scrollTop = $(window).scrollTop();
 
+                        if (scrollTop < offset || scrollTop < stubOffset) {
+                            section.removeClass('fixedTop');
+                            stubSection.addClass('invisible');
+                        } else {
+                            section.addClass('fixedTop');
+                            stubSection.removeClass('invisible');
+                        }
 
+                    }
+                }
 
 
 
 
 
-                    
+
+
+
                 //function fn_fix_breadcrumb_top_init() {
                 //    fn_set_fix_breadcrumb_top();
 
@@ -823,7 +830,7 @@
                 //        }
                 //    }
                 //}
-					
+
 
 
                 function btnColor(btn) {
