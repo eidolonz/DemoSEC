@@ -747,7 +747,7 @@
             <!-- JS for Custom Masterpage -->
             <script type="text/javascript">
                 $(document).ready(function () {
-                    <!--fn_fix_breadcrumb_top_init();-->
+                    //fn_fix_breadcrumb_top_init();
                     fn_fix_breadcrumb_top();
 
 
@@ -794,36 +794,36 @@
 
 
 
-                    <!--
-                function fn_fix_breadcrumb_top_init() {
-                    fn_set_fix_breadcrumb_top();
+                    
+                //function fn_fix_breadcrumb_top_init() {
+                //    fn_set_fix_breadcrumb_top();
 
-                    $(window).scroll(function () {
+                //    $(window).scroll(function () {
 
-                        fn_set_fix_breadcrumb_top();
-                    });
+                //        fn_set_fix_breadcrumb_top();
+                //    });
 
-                    function fn_set_fix_breadcrumb_top() {
-                        var sWidth = 200;
-                        if (window.matchMedia('(min-width: 768px)').matches) {
-                            sWidth = 425;
-                        }
+                //    function fn_set_fix_breadcrumb_top() {
+                //        var sWidth = 200;
+                //        if (window.matchMedia('(min-width: 768px)').matches) {
+                //            sWidth = 425;
+                //        }
 
 
-                        if ($(window).scrollTop() < sWidth) {
-                            if ($('.siteNav').hasClass('fixedTop')) {
-                                $('.stubSiteNav').addClass('invisible');
-                                $('.siteNav').removeClass('fixedTop');
-                            }
-                        } else {
-                            if (!$('.siteNav').hasClass('fixedTop')) {
-                                $('.stubSiteNav').removeClass('invisible');
-                                $('.siteNav').addClass('fixedTop');
-                            }
-                        }
-                    }
-                }
-					-->
+                //        if ($(window).scrollTop() < sWidth) {
+                //            if ($('.siteNav').hasClass('fixedTop')) {
+                //                $('.stubSiteNav').addClass('invisible');
+                //                $('.siteNav').removeClass('fixedTop');
+                //            }
+                //        } else {
+                //            if (!$('.siteNav').hasClass('fixedTop')) {
+                //                $('.stubSiteNav').removeClass('invisible');
+                //                $('.siteNav').addClass('fixedTop');
+                //            }
+                //        }
+                //    }
+                //}
+					
 
 
                 function btnColor(btn) {

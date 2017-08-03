@@ -22,7 +22,7 @@
             border: 1px solid rgba(255,255,255,0.2);
             margin: 10px 0;
         }
-		
+
 
         .container {
             padding: 20px;
@@ -100,14 +100,16 @@
                 left: 0;
                 right: 0;
                 max-width: 74.6%;
-		        min-height:90%;
-                padding: 50px;
+                min-height: 90%;
+                padding: 2%;
             }
         }
 
-		@media screen and (min-width: 1920px){
-            .main-container{
-		font-size: 24px;}
+        @media screen and (min-width: 1920px) {
+            .main-container {
+                font-size: 24px;
+            }
+        }
     </style>
     <style>
         .sec-logo {
@@ -265,7 +267,7 @@
                             <%--<img src="../PublishingImages/logo-white.png" id="main-logo"/>--%>
                             <%--<img src="../PublishingImages/logo.svg" id="main-logo" />--%>
                             <svg version="1.1" class="sec-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 90.499 88.74" enable-background="new 0 0 90.499 88.74" xml:space="preserve">
+                                viewBox="0 0 90.499 88.74" enable-background="new 0 0 90.499 88.74" xml:space="preserve">
                                 <path fill="#FFFFFF" class="sec-child-1" d="M52.843,20.988c0-4.338-3.392-7.853-7.579-7.853c-4.191,0-7.585,3.515-7.585,7.853
 	c0,4.336,3.394,7.853,7.585,7.853C49.451,28.841,52.843,25.325,52.843,20.988" />
                                 <path fill="#FFFFFF" class="sec-child-2" d="M45.637,41.973H0v-8.167h45.253c6.802,0,12.347-5.75,12.355-12.819C57.6,13.925,52.055,8.174,45.253,8.171
@@ -336,8 +338,8 @@
                         <a href="home.aspx" class="bt-skip">Skip</a>
                     </div>
                 </div>
-                    <div class="col-xs-12 col-lg-2">&nbsp;</div>
-                    <div class="col-xs-12 col-lg-2">&nbsp;</div>
+                <div class="col-xs-12 col-lg-2">&nbsp;</div>
+                <div class="col-xs-12 col-lg-2">&nbsp;</div>
             </div>
         </div>
 
