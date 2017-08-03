@@ -24,7 +24,7 @@
         }
 
         .container {
-            padding: 50px;
+            padding: 20px;
         }
 
         #mobileFooter {

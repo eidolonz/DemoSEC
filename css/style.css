@@ -340,6 +340,7 @@ td {
 
     .right-nav img {
         height: 25px;
+        width:auto;
     }
 
     .right-nav > a {

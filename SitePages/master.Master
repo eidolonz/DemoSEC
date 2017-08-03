@@ -29,6 +29,9 @@
             font-family: 'Kanit';
             font-size: 0.8em;
         }
+        .img-banner{
+            width:100%;
+        }
 
         .carousel-inner img {
             min-height: 200px;
@@ -183,7 +186,11 @@
         }
 
 
-
+        .bg-banner{
+            width:100%;
+            height:auto;
+            visibility:hidden;
+        }
         .bg-banner-1 {
             background-image: url(../PublishingImages/slide_1.png);
             background-repeat: no-repeat;
@@ -449,6 +456,8 @@
                 background: linear-gradient(to right, #aeaeae, #bbbbbb); /* Standard syntax */
             }
         }
+
+       
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -582,7 +591,7 @@
                 </div>
                 <div class="container" style="margin-top: 47px">
                     <!-- banner -->
-                    <img class="desktop" src="../../../PublishingImages/picture1.png" />
+                    <img class="desktop img-banner" src="../../../PublishingImages/picture1.png" />
                     <!-- Public Hearing -->
                     <a href="publichearing.aspx" id="bullhorn" class="bullhorn">
                         <img src="../PublishingImages/icon-bullhorn.png" />
@@ -600,16 +609,16 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active bg-banner-1">
-                                <%--<img src="../../../PublishingImages/slide_1.png">--%>
+                                <img class="bg-banner" src="../../../PublishingImages/slide_1.png">
                             </div>
                             <div class="item bg-banner-2">
-                                <%--<img src="../../../PublishingImages/slide_2.png">--%>
+                                <img class="bg-banner" src="../../../PublishingImages/slide_2.png">
                             </div>
                             <div class="item bg-banner-3">
-                                <%--<img src="../../../PublishingImages/slide_3.png">--%>
+                                <img class="bg-banner" src="../../../PublishingImages/slide_3.png">
                             </div>
                             <div class="item bg-banner-4">
-                                <%--<img src="../../../PublishingImages/slide_4.png">--%>
+                                <img class="bg-banner" src="../../../PublishingImages/slide_4.png">
                             </div>
                         </div>
                     </div>
