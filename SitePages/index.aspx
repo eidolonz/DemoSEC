@@ -261,7 +261,7 @@
             <div style="width: 100%; text-align: center;">
                 <div class="row">
                     <div class="col-xs-6 col-xs-offset-3  col-lg-2 col-lg-offset-5">
-                        <%--<div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">--%>
+                        <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
                             <%--<img src="../PublishingImages/logo-white.png" id="main-logo"/>--%>
                             <%--<img src="../PublishingImages/logo.svg" id="main-logo" />--%>
                             <svg version="1.1" class="sec-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -283,7 +283,7 @@
 	h18.075v-6.549H40.58c-1.591,0-2.782-0.992-2.782-2.58v-1.365h16.688v-5.762H37.798v-1.227c0-1.586,1.191-2.775,2.782-2.775H58.655z
 	" />
                             </svg>
-                        <%--</div>--%>
+                        </div>
                     </div>
                 </div>
                 <div class="row">

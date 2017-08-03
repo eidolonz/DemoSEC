@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <%--<meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.1)" />--%>
 
 
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -78,9 +77,14 @@
                 line-height: 1;
                 -webkit-transition: font-size 0.4s ease;
                 transition: font-size 0.4s ease;
+
+			    -webkit-animation-duration: 3s;
                 animation-duration: 3s;
+                -webkit-animation-name: slidein-span;
                 animation-name: slidein-span;
+			    -webkit-animation-iteration-count: infinite;
                 animation-iteration-count: infinite;
+			    -webkit-animation-direction: alternate;
                 animation-direction: alternate;
             }
 
@@ -92,11 +96,13 @@
                 animation-name: slidein-img;
                 animation-iteration-count: infinite;
                 animation-direction: alternate;
+
             }
 
             .bullhorn:hover {
                 opacity: 1;
                 width: 12%;
+                max-width:175px;
                 font-size: 1em;
                 padding: 15px;
                 color: white;
@@ -130,11 +136,13 @@
 
             60% {
                 width: 12%;
+            max-width:175px;
                 padding: 15px;
             }
 
             100% {
                 width: 12%;
+            max-width:175px;
                 padding: 15px;
             }
         }
@@ -153,15 +161,40 @@
             60% {
                 min-width: 40px;
                 width: 45%;
+			max-width:65px;
             }
 
             100% {
                 min-width: 40px;
                 width: 45%;
+            max-width:65px;
             }
         }
 
-        @keyframes slidein-span {
+        @keyframes slidein-span{
+            0% {
+                font-size: 0em;
+                line-height: 1;
+            }
+
+            40% {
+                font-size: 0em;
+                line-height: 1;
+            }
+
+            60% {
+                font-size: 1em;
+                line-height: 1;
+                color: white;
+            }
+
+            100% {
+                font-size: 1em;
+                line-height: 1;
+                color: white;
+            }
+        }
+			@-webkit-keyframes slidein-span{
             0% {
                 font-size: 0em;
                 line-height: 1;
@@ -494,7 +527,7 @@
 
 
                         </div>
-                        <%--<div class="menu-wrap" style="padding: 0px; background: linear-gradient(#192430,#174871);">--%>
+                        <!--<div class="menu-wrap" style="padding: 0px; background: linear-gradient(#192430,#174871);">-->
                         <div class="menu-wrap" style="padding: 0px; background-image: linear-gradient(rgba(0,0,0,1),rgba(5,65,115,0.9));">
                             <nav class="menu">
                                 <div class="menu-list">
@@ -624,7 +657,7 @@
                     </div>
 
 
-                    <div class="row box1 siteNav" id="siteNav">
+                    <section class="row box1 siteNav" id="siteNav">
                         <div class="col-xs-12 col-xs-padding-0 col-lg-10 col-md-padding-0" style="text-align: center; margin: 0;">
                             <nav>
                                 <ul style="padding: 0;">
@@ -641,7 +674,7 @@
                             </nav>
 
                         </div>
-                    </div>
+                    </section>
                     <div class="box1 stubSiteNav invisible"></div>
                 </div>
             </div>
@@ -714,8 +747,8 @@
             <!-- JS for Custom Masterpage -->
             <script type="text/javascript">
                 $(document).ready(function () {
-                    fn_fix_breadcrumb_top_init();
-
+                    <!--fn_fix_breadcrumb_top_init();-->
+                    fn_fix_breadcrumb_top();
 
 
                     $("body").css("display", "none");
@@ -731,6 +764,37 @@
                     }
                 });
 
+                        
+					function fn_fix_breadcrumb_top(){
+	                    $(window).scroll(function (){
+	                            fn_set_fix_breadcrumb_top();
+	                        });
+						    function fn_set_fix_breadcrumb_top(){
+
+	                            var section = $('.siteNav');
+					            var stubSection = $('.stubSiteNav');
+						        var offset = section.offset().top - 47;
+					            var stubOffset = stubSection.offset().top - 47;
+						        var scrollTop = $(window).scrollTop();
+
+								if(scrollTop < offset  || scrollTop < stubOffset){
+                                        section.removeClass('fixedTop');
+                                        stubSection.addClass('invisible');
+			                    }else{
+                                        section.addClass('fixedTop');
+                                        stubSection.removeClass('invisible');
+								}
+							
+	                        }
+					}
+
+
+
+
+
+
+
+                    <!--
                 function fn_fix_breadcrumb_top_init() {
                     fn_set_fix_breadcrumb_top();
 
@@ -759,6 +823,7 @@
                         }
                     }
                 }
+					-->
 
 
                 function btnColor(btn) {
