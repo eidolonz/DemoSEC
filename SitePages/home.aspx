@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="DemoSec.home" %>
+﻿<%@ Page Title="SEC-Home" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="DemoSec.home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
@@ -10,7 +10,7 @@
     <%--<link href="../ResourcesLibrary/css/responsive.css" rel="stylesheet">--%>
 
 
-    <div>
+    <div id="FormHome">
         <div class="container">
 
             <div class="text-left text-title">Hot Topic</div>
@@ -21,16 +21,20 @@
                 </div>
                 <header>
                     <div>
-                        <a href="#"><img src="../PublishingImages/bt-CG.jpg" width="40%"></a>
+                        <a href="#">
+                            <img src="../PublishingImages/bt-CG.jpg" width="40%"></a>
                     </div>
                     <div>
-                        <a href="#"><img src="../PublishingImages/bt-Asean.jpg" width="40%"></a>
+                        <a href="#">
+                            <img src="../PublishingImages/bt-Asean.jpg" width="40%"></a>
                     </div>
                     <div>
-                        <a href="#"><img src="../PublishingImages/bt-License.jpg" width="40%"></a>
+                        <a href="#">
+                            <img src="../PublishingImages/bt-License.jpg" width="40%"></a>
                     </div>
                     <div>
-                        <a href="#"><img src="../PublishingImages/bt-Recent.jpg" width="40%"></a>
+                        <a href="#">
+                            <img src="../PublishingImages/bt-Recent.jpg" width="40%"></a>
                     </div>
                     <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
                 </header>
@@ -39,7 +43,7 @@
             <div class="mybox2">
                 <img src="../PublishingImages/bt-SEC-Investors.png" width="95%" />
                 <hr />
-                <img src="../PublishingImages/bt-Question-Complaint.png"  width="95%"/>
+                <img src="../PublishingImages/bt-Question-Complaint.png" width="95%" />
                 <hr />
                 <img src="../PublishingImages/bt-SearchLaws-Regulations.png" width="95%" />
             </div>
@@ -73,7 +77,7 @@
             $(document).ready(function () {
                 document.getElementById('Home').className = "selected-nav";
             });
-    </script>
+        </script>
 
 
 

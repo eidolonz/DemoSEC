@@ -113,102 +113,370 @@
     </style>
     <style>
         .sec-logo {
-            fill-opacity: 0;
+           
         }
 
-        .sec-child-2 {
+        .sec-child-2 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: DrawLine, FadeIn;
+            -moz-animation-name: DrawLine, FadeIn;
+            -o-animation-name: DrawLine, FadeIn;
             animation-name: DrawLine, FadeIn;
+            
+            -webkit-animation-duration: 1s, 1s;
+            -moz-animation-duration: 1s, 1s;
+            -o-animation-duration: 1s, 1s;
             animation-duration: 1s, 1s;
+
+            -webkit-animation-delay: 0.4s;
+            -moz-animation-delay: 0.4s;
+            -o-animation-delay: 0.4s;
             animation-delay: 0.4s;
         }
 
-        .sec-child-1 {
+        .sec-child-1 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: FadeIn;
+            -moz-animation-name: FadeIn;
+            -o-animation-name: FadeIn;
             animation-name: FadeIn;
+            
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
             animation-duration: 1s;
+
+            -webkit-animation-delay: 0.6s;
+            -moz-animation-delay: 0.6s;
+            -o-animation-delay: 0.6s;
             animation-delay: 0.6s;
         }
 
-        .sec-child-3 {
+        .sec-child-3 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: DrawLine, FadeIn;
+            -moz-animation-name: DrawLine, FadeIn;
+            -o-animation-name: DrawLine, FadeIn;
             animation-name: DrawLine, FadeIn;
+            
+            -webkit-animation-duration: 1s, 0s;
+            -moz-animation-duration: 1s, 0s;
+            -o-animation-duration: 1s, 0s;
             animation-duration: 1s, 0s;
+
+            -webkit-animation-delay: 0.8s;
+            -moz-animation-delay: 0.8s;
+            -o-animation-delay: 0.8s;
             animation-delay: 0.8s;
         }
 
-        .sec-child-5 {
+        .sec-child-5 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: FadeIn;
+            -moz-animation-name: FadeIn;
+            -o-animation-name: FadeIn;
             animation-name: FadeIn;
+            
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
             animation-duration: 1s;
+
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            -o-animation-delay: 1s;
             animation-delay: 1s;
         }
 
-        .sec-child-6 {
+        .sec-child-6 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: FadeIn;
+            -moz-animation-name: FadeIn;
+            -o-animation-name: FadeIn;
             animation-name: FadeIn;
+            
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
             animation-duration: 1s;
+
+            -webkit-animation-delay: 1.2s;
+            -moz-animation-delay: 1.2s;
+            -o-animation-delay: 1.2s;
             animation-delay: 1.2s;
         }
 
-        .sec-child-4 {
+        .sec-child-4 { fill-opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: FadeIn;
+            -moz-animation-name: FadeIn;
+            -o-animation-name: FadeIn;
             animation-name: FadeIn;
+            
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
             animation-duration: 1s;
+
+            -webkit-animation-delay: 1.4s;
+            -moz-animation-delay: 1.4s;
+            -o-animation-delay: 1.4s;
             animation-delay: 1.4s;
         }
 
 
         #title {
             opacity: 0;
+             -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: SlideIn, FadeIn;
+            -moz-animation-name: SlideIn, FadeIn;
+            -o-animation-name: SlideIn, FadeIn;
             animation-name: SlideIn, FadeIn;
+            
+            -webkit-animation-duration: 1s, 1s;
+            -moz-animation-duration: 1s, 1s;
+            -o-animation-duration: 1s, 1s;
             animation-duration: 1s, 1s;
+
+            -webkit-animation-delay: 2s;
+            -moz-animation-delay: 2s;
+            -o-animation-delay: 2s;
             animation-delay: 2s;
         }
 
         #sub-title {
             opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: SlideIn, FadeIn;
+            -moz-animation-name: SlideIn, FadeIn;
+            -o-animation-name: SlideIn, FadeIn;
             animation-name: SlideIn, FadeIn;
+            
+            -webkit-animation-duration: 1s, 1s;
+            -moz-animation-duration: 1s, 1s;
+            -o-animation-duration: 1s, 1s;
             animation-duration: 1s, 1s;
+            
+            -webkit-animation-delay: 2.2s;
+            -moz-animation-delay: 2.2s;
+            -o-animation-delay: 2.2s;
             animation-delay: 2.2s;
         }
 
         #identity {
             opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: ScaleIn, FadeIn;
+            -moz-animation-name: ScaleIn, FadeIn;
+            -o-animation-name: ScaleIn, FadeIn;
             animation-name: ScaleIn, FadeIn;
+            
+            -webkit-animation-duration: 1s, 1s;
+            -moz-animation-duration: 1s, 1s;
+            -o-animation-duration: 1s, 1s;
             animation-duration: 1s, 1s;
+            
+            -webkit-animation-delay: 3s;
+            -moz-animation-delay: 3s;
+            -o-animation-delay: 3s;
             animation-delay: 3s;
         }
 
         #skip {
             opacity: 0;
+            -webkit-animation-iteration-count:1;
+            -moz-animation-iteration-count:1;
+            -o-animation-iteration-count:1;
             animation-iteration-count: 1;
+
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -o-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
+
+            -webkit-animation-fill-mode: forwards;
+            -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
+
+            -webkit-animation-name: ScaleIn, FadeIn;
+            -moz-animation-name: ScaleIn, FadeIn;
+            -o-animation-name: ScaleIn, FadeIn;
             animation-name: ScaleIn, FadeIn;
+            
+            -webkit-animation-duration: 1s, 1s;
+            -moz-animation-duration: 1s, 1s;
+            -o-animation-duration: 1s, 1s;
             animation-duration: 1s, 1s;
-            animation-delay: 3s;
+            
+            -webkit-animation-delay: 3.2s;
+            -moz-animation-delay: 3.2s;
+            -o-animation-delay: 3.2s;
+            animation-delay: 3.2s;
+        }
+
+        /*#region | FadeIn | */
+
+        @-webkit-keyframes FadeIn {
+            0% {
+                opacity: 0;
+                fill-opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                fill-opacity: 1;
+            }
+        }
+
+        @-moz-keyframes FadeIn {
+            0% {
+                opacity: 0;
+                fill-opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                fill-opacity: 1;
+            }
+        }
+
+        @-o-keyframes FadeIn {
+            0% {
+                opacity: 0;
+                fill-opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                fill-opacity: 1;
+            }
         }
 
         @keyframes FadeIn {
@@ -220,6 +488,52 @@
             100% {
                 opacity: 1;
                 fill-opacity: 1;
+            }
+        }
+
+        /*#endregion */
+
+        /*#region | DrawLine | */
+
+        @-webkit-keyframes DrawLine {
+            0% {
+                width: 0px;
+            }
+
+            80% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @-moz-keyframes DrawLine {
+            0% {
+                width: 0px;
+            }
+
+            80% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @-o-keyframes DrawLine {
+            0% {
+                width: 0px;
+            }
+
+            80% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
             }
         }
 
@@ -237,6 +551,40 @@
             }
         }
 
+        /*#endregion */
+
+        /*#region | SlideIn | */
+
+        @-webkit-keyframes SlideIn {
+            0% {
+                -webkit-transform: translate3d(0, -20px, 0 );
+            }
+
+            100% {
+                -webkit-transform: translate3d(0, 0, 0 );
+            }
+        }
+
+        @-moz-keyframes SlideIn {
+            0% {
+                -moz-transform: translate3d(0, -20px, 0 );
+            }
+
+            100% {
+                -moz-transform: translate3d(0, 0, 0 );
+            }
+        }
+
+        @-o-keyframes SlideIn {
+            0% {
+                -o-transform: translate3d(0, -20px, 0 );
+            }
+
+            100% {
+                -o-transform: translate3d(0, 0, 0 );
+            }
+        }
+
         @keyframes SlideIn {
             0% {
                 transform: translate3d(0, -20px, 0 );
@@ -244,6 +592,40 @@
 
             100% {
                 transform: translate3d(0, 0, 0 );
+            }
+        }
+
+        /*#endregion */
+
+        /*#region | ScaleIn | */
+
+        @-webkit-keyframes ScaleIn {
+            0% {
+                -webkit-transform: scale(1.2);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+            }
+        }
+
+        @-moz-keyframes ScaleIn {
+            0% {
+                -moz-transform: scale(1.2);
+            }
+
+            100% {
+                -moz-transform: scale(1);
+            }
+        }
+
+        @-o-keyframes ScaleIn {
+            0% {
+                -o-transform: scale(1.2);
+            }
+
+            100% {
+                -o-transform: scale(1);
             }
         }
 
@@ -256,6 +638,8 @@
                 transform: scale(1);
             }
         }
+
+        /*#endregion */
     </style>
 
     <div id="img-body">
@@ -269,21 +653,21 @@
                             <svg version="1.1" class="sec-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 90.499 88.74" enable-background="new 0 0 90.499 88.74" xml:space="preserve">
                                 <path fill="#FFFFFF" class="sec-child-1" d="M52.843,20.988c0-4.338-3.392-7.853-7.579-7.853c-4.191,0-7.585,3.515-7.585,7.853
-	c0,4.336,3.394,7.853,7.585,7.853C49.451,28.841,52.843,25.325,52.843,20.988" />
+	c0,4.336,3.394,7.853,7.585,7.853C49.451,28.841,52.843,25.325,52.843,20.988"></path>
                                 <path fill="#FFFFFF" class="sec-child-2" d="M45.637,41.973H0v-8.167h45.253c6.802,0,12.347-5.75,12.355-12.819C57.6,13.925,52.055,8.174,45.253,8.171
 	c-6.805,0.003-12.349,5.754-12.357,12.817c0,1.178,0.163,2.358,0.486,3.515l0.051,0.208c0.086,0.334,0.134,0.682,0.134,1.029
 	c-0.006,2.291-2.021,3.664-3.963,3.668c-1.815,0-3.258-0.936-3.77-2.436l-0.052-0.153c-0.545-1.928-0.813-3.877-0.813-5.831
 	C24.97,9.439,34.066,0.023,45.248,0c11.189,0.023,20.284,9.439,20.284,20.987c0,11.243-8.833,20.651-19.692,20.973l-0.175,0.004
-	l-0.014,0.003L45.637,41.973z" />
-                                <rect y="47.211" class="sec-child-3" fill="#FFFFFF" width="90.5" height="8.168" />
+	l-0.014,0.003L45.637,41.973z"></path>
+                                <rect y="47.211" class="sec-child-3" fill="#FFFFFF" width="90.5" height="8.168"></rect>
                                 <path fill="#FFFFFF" class="sec-child-4" d="M69.637,79.611c0,1.588,1.193,2.582,2.78,2.582h18.082v6.547H72.417c-4.766,0-8.732-3.768-8.732-8.533
-	v-9.385c0-4.764,3.967-8.738,8.732-8.738h18.082v6.555H72.417c-1.587,0-2.78,1.189-2.78,2.775V79.611z" />
+	v-9.385c0-4.764,3.967-8.738,8.732-8.738h18.082v6.555H72.417c-1.587,0-2.78,1.189-2.78,2.775V79.611z"></path>
                                 <path fill="#FFFFFF" class="sec-child-5" d="M8.731,72.645c-1.191,0-2.186-0.719-2.186-1.906c0-1.387,0.994-2.1,2.186-2.1h16.501v-6.557H8.135
 	C3.57,62.082,0,65.578,0,70.338c0,4.568,3.57,8.656,8.135,8.656h9.746c1.393,0,2.384,0.652,2.384,1.844
-	c0,1.389-0.991,2.102-2.384,2.102H1.586v5.957H18.48c4.566,0,8.334-3.496,8.334-8.059c0-4.367-1.582-8.193-8.334-8.193H8.731z" />
+	c0,1.389-0.991,2.102-2.384,2.102H1.586v5.957H18.48c4.566,0,8.334-3.496,8.334-8.059c0-4.367-1.582-8.193-8.334-8.193H8.731z"></path>
                                 <path fill="#FFFFFF" class="sec-child-6" d="M58.655,68.639v-6.555H40.58c-4.766,0-8.739,3.975-8.739,8.738v9.539c0,4.762,3.974,8.535,8.739,8.535
 	h18.075v-6.549H40.58c-1.591,0-2.782-0.992-2.782-2.58v-1.365h16.688v-5.762H37.798v-1.227c0-1.586,1.191-2.775,2.782-2.775H58.655z
-	" />
+	" ></path>
                             </svg>
                         </div>
                     </div>

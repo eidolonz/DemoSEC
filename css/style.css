@@ -241,11 +241,11 @@ footer {
 a {
     color: #2f2f2f;
     text-decoration: none;
-    transition: ease .6s;
+    /*transition: ease .6s;
     -webkit-transition: ease .6s;
     -moz-transition: ease .6s;
     -o-transition: ease .6s;
-    -ms-transition: ease .6s;
+    -ms-transition: ease .6s;*/
 }
 
 #img-body {
@@ -364,6 +364,12 @@ td {
 
 .fixedTop {
     top: 47px;
+    z-index: 1001;
+    position: fixed;
+    width: 100% !important;
+}
+.sub-fixedTop{
+    top: 80px;
     z-index: 1001;
     position: fixed;
     width: 100% !important;
@@ -2126,8 +2132,8 @@ label:hover:before {
 }
 
 .mybox2 {
-    margin-top: 10px;
-    padding-top: 15px;
+    /*margin-top: 10px;*/
+    padding: 1% 0;
     width: 15%;
     height: auto;
     text-align: center;

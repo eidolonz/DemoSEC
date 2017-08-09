@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="myfeed.aspx.cs" Inherits="DemoSec.SitePages.myfeed" %>
+﻿<%@ Page Title="SEC-MyFeed" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="myfeed.aspx.cs" Inherits="DemoSec.SitePages.myfeed" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
