@@ -19,7 +19,7 @@
     <script src="../js/bootstrap.min.js" type="text/javascript">    </script>
 
 
-    <style>
+    <style >
         body {
             background-color: black;
         }
@@ -75,8 +75,6 @@
         }
 
             .bullhorn span {
-                font-size: 0em;
-                line-height: 1;
                 -webkit-transition: font-size 0.4s ease;
                 transition: font-size 0.4s ease;
                 -webkit-animation-duration: 3s;
@@ -87,6 +85,8 @@
                 animation-iteration-count: infinite;
                 -webkit-animation-direction: alternate;
                 animation-direction: alternate;
+                font-size: 1em;
+                line-height: 1;
             }
 
             .bullhorn img {
@@ -285,9 +285,10 @@
         }
 
         .dropdown-submenu {
-            max-width: 74.6%;
-            left: 0;
-            right: 0;
+            max-width: 62.6%;
+			left:auto;
+            /*left: 0;
+            right: 0;*/
             top: auto;
             margin: 0 auto;
             padding: 5px 0 0 0;
@@ -595,7 +596,7 @@
             }
 
                 .sub-fixedTop .dropdown-submenu {
-                    max-width: 100% !important;
+                    max-width: 84% !important;
                 }
 
             .navProgBar {
@@ -610,7 +611,10 @@
             }
 
             #subNews .dropdown-submenu {
-                padding-left: 25%;
+                
+			    text-align:center;
+			    margin-top:0;
+			    left:auto;
             }
 
                 #subNews .dropdown-submenu a {
@@ -807,47 +811,47 @@
                             <div class="submenu-fade fade" style="display: none;"></div>
                             <ul class="dropdown-menu dropdown-submenu">
                                 <li>
-                                    <a href="#">Laws & Regurations</a>
+                                    <a href="home.aspx">Laws & Regurations</a>
                                     <div class="dropdown-submenu-bar"></div>
                                     <ul class="dropdown-menu dropdown-submenu">
                                         <li>
-                                            <a href="#">Introduction</a>
+                                            <a href="home.aspx">Introduction</a>
                                         </li>
                                         <li>
-                                            <a href="#">Act & Royal Enactment</a>
+                                            <a href="home.aspx">Act & Royal Enactment</a>
                                         </li>
                                         <li>
-                                            <a href="#">Ministerial Regulations</a>
+                                            <a href="home.aspx">Ministerial Regulations</a>
                                         </li>
                                         <li>
-                                            <a href="#">Notification of the Ministry of Finance</a>
+                                            <a href="home.aspx">Notification of the Ministry of Finance</a>
                                         </li>
                                         <li>
-                                            <a href="#">Appellate Committee Rule of Practice</a>
+                                            <a href="home.aspx">Appellate Committee Rule of Practice</a>
                                         </li>
                                         <li>
-                                            <a href="#">Introduction</a>
+                                            <a href="home.aspx">Introduction</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Market Development</a>
+                                    <a href="home.aspx">Market Development</a>
                                     <div class="dropdown-submenu-bar"></div>
                                 </li>
                                 <li>
-                                    <a href="#">Coporate Finance & Product</a>
+                                    <a href="home.aspx">Coporate Finance & Product</a>
                                     <div class="dropdown-submenu-bar"></div>
                                 </li>
                                 <li>
-                                    <a href="#">Intermediaries</a>
+                                    <a href="home.aspx">Intermediaries</a>
                                     <div class="dropdown-submenu-bar"></div>
                                 </li>
                                 <li>
-                                    <a href="#">Enforcement</a>
+                                    <a href="home.aspx">Enforcement</a>
                                     <div class="dropdown-submenu-bar"></div>
                                 </li>
                                 <li>
-                                    <a href="#">CG Thailand</a>
+                                    <a href="home.aspx">CG Thailand</a>
                                     <div class="dropdown-submenu-bar"></div>
                                 </li>
                             </ul>

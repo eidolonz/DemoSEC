@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="myfeedCustomise.aspx.cs" Inherits="DemoSec.SitePages.myfeedCustomise" %>
+﻿<%@ Page Title="SEC-MyFeed" Language="C#" MasterPageFile="~/SitePages/master.Master" AutoEventWireup="true" CodeBehind="myfeedCustomise.aspx.cs" Inherits="DemoSec.SitePages.myfeedCustomise" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <%-- Add mod_masterPage CSS to all pages --%>
@@ -396,7 +396,6 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
-                fn_fix_breadcrumb_top_init();
                 document.getElementById('Feed').className = "selected-nav";
             });
 

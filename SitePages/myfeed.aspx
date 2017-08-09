@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <%-- Add mod_masterPage CSS to all pages --%>
+    <!-- Add mod_masterPage CSS to all pages -->
     <link href="../css/mod_masterPage.css" rel="stylesheet" />
     <style>
         .col-padding-0 {
@@ -45,7 +45,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container" id="myfeed_container">
-        <%-- Text Title --%>
+        <!-- Text Title -->
         <div class="mobile" style="font-size: 1em; padding-top: 0; margin-bottom: 0;">
             <div class="col-xs-4 col-md-2">
                 <div class="text-left" id="text-title-mobile">My Feed</div>
@@ -54,7 +54,7 @@
                 <asp:LinkButton Text="Edit" runat="server" ID="btn_edit" OnClick="btn_edit_Click" CssClass="textBtn">
                     <span>Edit&nbsp;<span class="glyphicon glyphicon-cog" aria-hidden="true"></span></span>
                 </asp:LinkButton>
-                <%--<a href="#"><strong>Edit <span class="glyphicon glyphicon-cog"></span></strong></a>--%>
+                <!--<a href="#"><strong>Edit <span class="glyphicon glyphicon-cog"></span></strong></a>-->
             </div>
         </div>
         <div class="desktop">
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="mybox2 desktop">
-            <a href="myfeedcustomise.aspx">
+            <a href="myfeedCustomise.aspx">
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block1">
                     <div class="icon-bar">
                         <img src="../PublishingImages/pic-customise.png" />
