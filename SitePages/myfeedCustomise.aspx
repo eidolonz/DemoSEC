@@ -382,8 +382,7 @@
                                 <img src="../PublishingImages/pic-favorite.png" />
                             </div>
                             <br />
-                            <span style="font-size: 1em;">Customise<br />
-                                My Feed</span>
+                            <span style="font-size: 1em;">My Favorite</span>
                             <%--<span class="glyphicon glyphicon-bookmark" style="font-size: 2em;"></span>
                             <br />
                             <span style="font-size: 1em;"><strong>My Favourite</strong></span>--%>

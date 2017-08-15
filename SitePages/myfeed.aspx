@@ -118,7 +118,7 @@
                 <div class="block1 center-block" style="color: #003764" runat="server" id="block2">
                     <img src="../PublishingImages/pic-favorite.png" />
                     <br />
-                    <span style="font-size: 1em;">My Favourite</span>
+                    <span style="font-size: 1em;">My Favorite</span>
                 </div>
             </a>
         </div>
